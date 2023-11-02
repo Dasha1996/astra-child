@@ -23,3 +23,12 @@ function child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+
+//enque sass
+function child_enqueue_styles_sass() {
+
+	wp_enqueue_style( 'astra-child-theme-sass', get_stylesheet_directory_uri() . '/dist/css/style.css', array('astra-theme-css'), CHILD_THEME_ASTRA_CHILD_VERSION, 'all' );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'child_enqueue_styles_sass', 15 );
