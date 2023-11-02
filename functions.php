@@ -1,6 +1,6 @@
 <?php
 /**
- * Astra Child Theme functions and definitions
+ * Astra Child Theme functions and definitions child test
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
