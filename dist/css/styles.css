@@ -21,6 +21,14 @@ body {
 }
 
 /*Banner image*/
+.flexbox {
+  display: flex;
+}
+
+.flexbox .col {
+  width: 45%;
+}
+
 /*@mixin flexbox {
     display: flex;
 }*/
