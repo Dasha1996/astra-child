@@ -1,3 +1,7 @@
-/*@mixin flexbox {
+@mixin flexbox {
     display: flex;
-}*/
+}
+
+@mixin col {
+    width: 45%;
+}

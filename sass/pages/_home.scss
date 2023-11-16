@@ -1,6 +1,7 @@
 /*Banner image*/
 .banner {
+    @include flexbox;
     .text {
-        padding: 200px;
+        @include col;      
     }
 }
