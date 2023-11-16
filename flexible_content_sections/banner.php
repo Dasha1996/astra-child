@@ -2,7 +2,7 @@
 $image = get_sub_field('image')["url"];
 $subtitle = get_sub_field('subtitle');
 $banner_text = get_sub_field('banner_text');
-?><div class="banner">
+?><div class="banner flexbox">
     <div class="col">
         <?if(!empty($image)) {
             ?>
