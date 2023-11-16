@@ -33,14 +33,6 @@ body {
   width: 45%;
 }
 
-.flexbox {
-  display: flex;
-}
-
-.flexbox .col {
-  width: 45%;
-}
-
 h1 {
   color: #d3ccff;
 }/*# sourceMappingURL=styles.css.map */
