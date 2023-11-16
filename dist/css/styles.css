@@ -27,7 +27,7 @@ body {
 /*Banner image*/
 .banner {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 .banner .text {
   width: 45%;
