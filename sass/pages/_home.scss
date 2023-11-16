@@ -2,6 +2,6 @@
 .banner {
     @include flexbox;
     .text {
-           
+        @include col     
     }
 }
