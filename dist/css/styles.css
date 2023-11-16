@@ -1,3 +1,6 @@
+/*@mixin flexbox {
+    display: flex;
+}*/
 /*all global styles*/
 *,
 *:before,
@@ -17,11 +20,18 @@ body {
   display: none;
 }
 
-/*Banner image*/
-.banner {
+.flexbox, .banner {
   display: flex;
 }
 
+.flexbox col, .banner col {
+  width: 45%;
+}
+
+/*Banner image*/
+/*@mixin flexbox {
+    display: flex;
+}*/
 h1 {
   color: #d3ccff;
 }/*# sourceMappingURL=styles.css.map */
