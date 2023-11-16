@@ -29,10 +29,6 @@ body {
   display: flex;
   align-items: center;
 }
-.banner .text {
-  width: 45%;
-}
-
 h1 {
   color: #d3ccff;
 }/*# sourceMappingURL=styles.css.map */
