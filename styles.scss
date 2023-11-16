@@ -8,6 +8,8 @@
 
 @import "./sass/layout/footer";
 
+@import "./sass/helper/mixins";
+
 h1 {
     color: $primaryColor;
 }

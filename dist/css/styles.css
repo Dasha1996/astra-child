@@ -17,6 +17,11 @@ body {
   display: none;
 }
 
+/*Banner image*/
+.banner {
+  display: flex;
+}
+
 h1 {
   color: #d3ccff;
 }/*# sourceMappingURL=styles.css.map */

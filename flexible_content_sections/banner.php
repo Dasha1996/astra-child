@@ -1,13 +1,25 @@
 <?php
 $image = get_sub_field('image')["url"];
-echo $image;
-echo "test image";
-
+$subtitle = get_sub_field('subtitle');
+$banner_text = get_sub_field('banner_text');
 ?><div class="banner">
     <div class="col">
-        <img src="<?php echo $image;?>" alt =""/>
+        <?if(!empty($image)) {
+            ?>
+            <img src="<?php echo $image;?>" alt =""/>
+            <?
+        }?>
     </div>
     <div class="col">
+        <?if(!empty($subtitle)) {
+            ?>
+            <p><?php echo $subtitle;?></p>
+            <?
+        }?>
+        <?if(!empty($banner_text)) {
+             echo $banner_text;
+        }?>
+
     </div>
 
 
