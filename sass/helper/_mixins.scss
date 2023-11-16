@@ -1,5 +1,6 @@
 @mixin flexbox {
     display: flex;
+        justify-content: center;
 }
 
 @mixin col {
