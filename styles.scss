@@ -1,7 +1,13 @@
-@import './sass/partials/variables';
-@import './sass/partials/globals';
-@import './sass/partials/home';
+@import "components/buttons";
+
+@import "helper/mixins";
+@import "helper/variables";
+@import "helper/globals";
+
+@import "pages/home";
+
+@import "layout/footer";
 
 h1 {
-    color: blue;
+    color: $primaryColor;
 }
