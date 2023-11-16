@@ -34,7 +34,9 @@ add_filter( 'body_class', 'custom_body_class' ); ?>
 <?php add_action( 'astra_entry_content_after', 'astra_child_custom_content' );
 
 function astra_child_custom_content() {
-        echo "custom info";
+    while ( the_flexible_field('custom_fields') ) {
+		get_template_part( 'flexible_content_sections/'. get_row_layout() );
+	}
 }
 ?>
 <div id="primary" <?php astra_primary_class(); ?>>

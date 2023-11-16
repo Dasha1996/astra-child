@@ -12,6 +12,11 @@ body {
   padding: 20px;
 }
 
+/*remove page titles*/
+.entry-title {
+  display: none;
+}
+
 h1 {
   color: #d3ccff;
 }/*# sourceMappingURL=styles.css.map */
