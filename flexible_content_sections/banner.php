@@ -10,16 +10,17 @@ $banner_text = get_sub_field('banner_text');
             <?
         }?>
     </div>
-    <div class="col text">
-        <?if(!empty($subtitle)) {
-            ?>
-            <p><?php echo $subtitle;?></p>
-            <?
-        }?>
-        <?if(!empty($banner_text)) {
-             echo $banner_text;
-        }?>
-
+    <div class="col">
+        <div class="text-container">
+            <?if(!empty($subtitle)) {
+                ?>
+                <p><?php echo $subtitle;?></p>
+                <?
+            }?>
+            <?if(!empty($banner_text)) {
+                echo $banner_text;
+            }?>
+    </div>
     </div>
 
 
