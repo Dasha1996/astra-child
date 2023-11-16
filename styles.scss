@@ -1,12 +1,12 @@
-@import "components/buttons";
+@import "./sass/components/buttons";
 
-@import "helper/mixins";
-@import "helper/variables";
-@import "helper/globals";
+@import "./sass/helper/mixins";
+@import "./sass/helper/variables";
+@import "./sass/helper/globals";
 
-@import "pages/home";
+@import "./sass/pages/home";
 
-@import "layout/footer";
+@import "./sass/layout/footer";
 
 h1 {
     color: $primaryColor;
