@@ -29,7 +29,7 @@ body {
   display: flex;
   align-items: center;
 }
-.banner .text {
+.banner .col {
   width: 45%;
 }
 
