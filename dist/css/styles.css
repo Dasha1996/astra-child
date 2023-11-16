@@ -1,4 +1,4 @@
-/*all global styles*/
+/*all global styles that apply to site globally*/
 *,
 *:before,
 *:after {
@@ -31,6 +31,10 @@ body {
 }
 .banner .col {
   width: 50%;
+}
+.banner .text-container {
+  width: 65%;
+  margin: auto;
 }
 
 h1 {
