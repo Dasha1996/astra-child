@@ -1,8 +1,9 @@
+//flexbox
 @mixin flexbox {
     display: flex;
         align-items: center;
 }
-
+//flexbox col width
 @mixin col {
     width: 50%;
 }

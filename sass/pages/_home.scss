@@ -4,4 +4,8 @@
     .col {
         @include col     
     }
+    .text-container {
+        width:65%;
+        margin: auto;
+    }
 }
