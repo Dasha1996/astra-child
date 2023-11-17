@@ -31,7 +31,7 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
 }*/
 
-add_action( 'wp_enqueue_scripts', 'child_enqueue_styles_sass', 15 );
+//add_action( 'wp_enqueue_scripts', 'child_enqueue_styles_sass', 15 );
 
 function astrachild_load_scripts() {
     //handle, path, dependency, version for caching
