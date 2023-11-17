@@ -36,6 +36,11 @@ p, a, ul, ul li, ol li {
     line-height: 1.4;
 }
 
+.ast-button:focus, .ast-button:hover, .button:focus, .button:hover, button:focus, button:hover, input[type=button]:focus, input[type=button]:hover, input[type=reset]:focus, input[type=reset]:hover, input[type=submit]:focus, input[type=submit]:hover {
+    color: black !important;
+    border-color: transparent !important;
+}
+
 /*global container width*/
 .container {
     width: $container-width;
@@ -85,7 +90,7 @@ span.in-view {
     a.button {
         color: black !important;
         display: inline-block;
-        width: 100%;
+        width: 60%;
         text-align: center;
         border-radius: 0;
         font-size: 20px;
