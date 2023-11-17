@@ -119,7 +119,7 @@ span.in-view {
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 .banner .text-container p {
   margin-bottom: 0;
@@ -127,6 +127,9 @@ span.in-view {
 .banner h1 {
   font-size: 45px;
   margin-bottom: 0;
+}
+.banner .button-container {
+  margin-top: 20px;
 }
 
 h1 {
