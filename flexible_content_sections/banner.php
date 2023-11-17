@@ -1,5 +1,6 @@
 <?php
 $image = get_sub_field('image')["url"];
+$test = get_sub_field('image-test')["url"];
 $subtitle = get_sub_field('subtitle');
 $banner_text = get_sub_field('banner_text');
 ?><div class="banner flexbox">
@@ -12,6 +13,8 @@ $banner_text = get_sub_field('banner_text');
             }?>
             <?if(!empty($banner_text)) {
                 echo $banner_text;
+                ?><img src="<?php echo $test;?>" alt =""/><?
+
             }?>
     </div>
     </div>
