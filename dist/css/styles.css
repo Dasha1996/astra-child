@@ -45,6 +45,11 @@ p, a, ul, ul li, ol li {
   width: 900px;
 }
 
+/*black line under each container*/
+hr {
+  color: 2px solid rgb(13, 13, 13);
+}
+
 /*span highlight*/
 span {
   background-repeat: no-repeat;

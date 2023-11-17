@@ -36,6 +36,7 @@ add_filter( 'body_class', 'custom_body_class' ); ?>
 function astra_child_custom_content() {
     while ( the_flexible_field('custom_fields') ) {
 		get_template_part( 'flexible_content_sections/'. get_row_layout() );
+        ?><hr><?php
 	}
 }
 ?>

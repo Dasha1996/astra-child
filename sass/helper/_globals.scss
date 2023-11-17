@@ -46,6 +46,11 @@ p, a, ul, ul li, ol li {
     width: $container-width;
 }
 
+/*black line under each container*/
+hr {
+    color: $border-bottom;
+}
+
 /*span highlight*/
 
 span {
