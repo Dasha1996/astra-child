@@ -58,6 +58,12 @@ span.in-view {
     background-size: 100% 23% !important;
 }
 
+.cloud-button {
+    position: relative;
+}
 .cloud {
-    width: 160px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

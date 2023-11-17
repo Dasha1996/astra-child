@@ -17,13 +17,10 @@ $button_link = get_sub_field('button_link');
                 echo $banner_text;
                 
                 ?>
-                <style>
-                    a.button {
-                        background: url(<?php echo $test;?>);
-                    }
-                </style>
-                <a href="<?php echo $button_link;?>" class="button"><?php echo $button_text;?>></a>
-                <img class="cloud" src="<?php echo $test;?>" alt =""/>
+                <div class="cloud-button">
+                    <a href="<?php echo $button_link;?>" class="button"><?php echo $button_text;?>></a>
+                    <img class="cloud" src="<?php echo $test;?>" alt =""/>
+                </div>
                 <?
 
             }?>
