@@ -3,7 +3,13 @@
 .banner {
     @include flexbox;
     .col {
-        @include col     
+        @include col;
+        align-self:stretch;     
+    }
+    .text-col {
+        display: flex;
+            flex-direction: column;
+            align-items: center;
     }
     .text-container {
         /*width:450px;*/
