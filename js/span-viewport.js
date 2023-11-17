@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function() {
     console.log("loaded");
     $(window).on('scroll resize', function() {
         $('.banner span').each(function() {
