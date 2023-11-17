@@ -1,6 +1,6 @@
 <?php
 $image = get_sub_field('image')["url"];
-$test = get_sub_field('image-test')["url"];
+$test = get_sub_field('image_test')["url"];
 $subtitle = get_sub_field('subtitle');
 $banner_text = get_sub_field('banner_text');
 ?><div class="banner flexbox">
