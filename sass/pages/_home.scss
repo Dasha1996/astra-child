@@ -12,6 +12,9 @@
         display: flex;
         flex-direction: column;
         gap: $banner-distance;
+        span {
+            text-transform: uppercase;
+        }
         p {
             margin-bottom: 0;
         }
