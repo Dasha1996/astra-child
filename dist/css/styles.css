@@ -47,7 +47,8 @@ p, a, ul, ul li, ol li {
 
 /*black line under each container*/
 hr {
-  color: 2px solid rgb(13, 13, 13);
+  background-color: rgb(13, 13, 13);
+  height: 2px;
 }
 
 /*span highlight*/

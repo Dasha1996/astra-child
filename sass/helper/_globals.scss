@@ -48,7 +48,8 @@ p, a, ul, ul li, ol li {
 
 /*black line under each container*/
 hr {
-    color: $border-bottom;
+    background-color: $border-bottom-color;
+    height: 2px;
 }
 
 /*span highlight*/
