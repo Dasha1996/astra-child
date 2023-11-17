@@ -93,5 +93,10 @@ span.in-view {
         border: 2px solid #000 !important;
         transition: all ease-in 0.2s !important;
     }
+    a.button:hover,
+    a.button:focus,
+    a.button:active {
+        box-shadow:none;
+    }
 }
 
