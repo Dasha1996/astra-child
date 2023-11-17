@@ -95,6 +95,7 @@ span.in-view {
 .button-container a.button:focus,
 .button-container a.button:active {
   box-shadow: none;
+  color: black !important;
 }
 
 /*---------- HOME PAGE --------*/
