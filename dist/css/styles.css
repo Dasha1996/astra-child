@@ -70,9 +70,8 @@ p, a, ul, ul li, ol li {
 }
 .banner .text-container p span {
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d3ccff), to(#d3ccff));
   background-image: linear-gradient(180deg, #d3ccff 0%, #d3ccff 100%);
-  background-size: 0% 18%;
+  background-size: 0% 22%;
   background-position: 0 89%;
   -webkit-transition: background-size 0.8s ease-in-out;
   transition: background-size 0.8s ease-in-out;
@@ -80,7 +79,7 @@ p, a, ul, ul li, ol li {
   will-change: background-size;
 }
 .banner span.in-view {
-  background-size: 100% 18% !important;
+  background-size: 100% 22% !important;
 }
 
 h1 {
