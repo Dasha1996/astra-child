@@ -46,6 +46,10 @@ p, a, ul, ul li, ol li {
 .banner .text-container {
   width: 65%;
   margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 .banner span {
   font-size: 20px;
