@@ -25,4 +25,4 @@
         // Trigger the scroll event initially
         $(window).trigger('scroll');
     });
-})
+}) (jQuery)
