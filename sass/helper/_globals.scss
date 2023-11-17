@@ -40,3 +40,19 @@ p, a, ul, ul li, ol li {
     width: $container-width;
 }
 
+/*span highlight*/
+
+span {
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear,left top,left bottom,from($primaryColor),to($primaryColor));
+    background-image: linear-gradient(180deg,$primaryColor 0%,$primaryColor 100%);
+    background-size: 0% 30%;
+    background-position: 0 89%;
+    -webkit-transition: background-size 0.8s ease-in-out;
+    transition: background-size 0.8s ease-in-out;
+    font-style: normal;
+    will-change: background-size;
+}
+span.in-view {
+    background-size: 100% 30% !important;
+}

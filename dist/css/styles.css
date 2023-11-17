@@ -39,6 +39,23 @@ p, a, ul, ul li, ol li {
   width: 900px;
 }
 
+/*span highlight*/
+span {
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d3ccff), to(#d3ccff));
+  background-image: linear-gradient(180deg, #d3ccff 0%, #d3ccff 100%);
+  background-size: 0% 30%;
+  background-position: 0 89%;
+  -webkit-transition: background-size 0.8s ease-in-out;
+  transition: background-size 0.8s ease-in-out;
+  font-style: normal;
+  will-change: background-size;
+}
+
+span.in-view {
+  background-size: 100% 30% !important;
+}
+
 /*---------- HOME PAGE --------*/
 /*Banner image*/
 .banner {
@@ -70,16 +87,17 @@ p, a, ul, ul li, ol li {
 }
 .banner .text-container p span {
   background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d3ccff), to(#d3ccff));
   background-image: linear-gradient(180deg, #d3ccff 0%, #d3ccff 100%);
-  background-size: 0% 33%;
+  background-size: 0% 30%;
   background-position: 0 89%;
-  -webkit-transition: background-size 0.9s ease-in-out;
-  transition: background-size 0.9s ease-in-out;
+  -webkit-transition: background-size 0.8s ease-in-out;
+  transition: background-size 0.8s ease-in-out;
   font-style: normal;
   will-change: background-size;
 }
 .banner span.in-view {
-  background-size: 100% 33% !important;
+  background-size: 100% 30% !important;
 }
 
 h1 {
