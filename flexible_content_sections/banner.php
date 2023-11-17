@@ -18,7 +18,7 @@ $button_link = get_sub_field('button_link');
                 
                 ?>
                 <style>
-                    a {
+                    a.button {
                         background: url(<?php echo $test;?>);
                     }
                 </style>
