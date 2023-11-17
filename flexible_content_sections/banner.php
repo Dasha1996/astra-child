@@ -7,7 +7,7 @@ $banner_text = get_sub_field('banner_text');
         <div class="text-container">
             <?if(!empty($subtitle)) {
                 ?>
-                <p><?php echo $subtitle;?></p>
+                <span><?php echo $subtitle;?></span>
                 <?
             }?>
             <?if(!empty($banner_text)) {
