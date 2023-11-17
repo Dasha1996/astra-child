@@ -1,3 +1,4 @@
+/*---------- HOME PAGE --------*/
 /*Banner image*/
 .banner {
     @include flexbox;
@@ -7,5 +8,12 @@
     .text-container {
         width:65%;
         margin: auto;
+    }
+    span {
+        font-size: 20px;
+    }
+    .text-container p {
+        font-size: 23px;
+        line-height: 1.5;
     }
 }

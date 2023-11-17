@@ -1,4 +1,4 @@
-/*all global styles that apply to site globally*/
+/*------------ GLOBAL STYLES --------*/
 *,
 *:before,
 *:after {
@@ -30,6 +30,15 @@ body {
   padding: 0 !important;
 }
 
+h1 {
+  font-size: 55px !important;
+}
+
+p, a, ul, ul li, ol li {
+  font-size: 20px;
+}
+
+/*---------- HOME PAGE --------*/
 /*Banner image*/
 .banner {
   display: flex;
@@ -41,6 +50,13 @@ body {
 .banner .text-container {
   width: 65%;
   margin: auto;
+}
+.banner span {
+  font-size: 20px;
+}
+.banner .text-container p {
+  font-size: 23px;
+  line-height: 1.5;
 }
 
 h1 {

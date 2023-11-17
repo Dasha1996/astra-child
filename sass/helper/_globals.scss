@@ -1,4 +1,4 @@
-/*all global styles that apply to site globally*/
+/*------------ GLOBAL STYLES --------*/
 *,
 *:before,
 *:after {
@@ -29,5 +29,13 @@ body {
 .ast-plain-container.ast-no-sidebar #primary {
     margin: 0 !important;
     padding: 0 !important;
+}
+
+h1 {
+    font-size: 55px !important;
+}
+
+p, a, ul, ul li, ol li {
+    font-size: 20px;
 }
 
