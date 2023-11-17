@@ -121,15 +121,18 @@ span.in-view {
   flex-direction: column;
   gap: 20px;
 }
+.banner .text-container h1 {
+  font-size: 45px;
+  margin-bottom: 0;
+}
 .banner .text-container > span {
   font-size: 21px;
 }
 .banner .text-container p {
   margin-bottom: 0;
 }
-.banner h1 {
-  font-size: 45px;
-  margin-bottom: 0;
+.banner .button-container {
+  margin-top: 20px;
 }
 
 h1 {
