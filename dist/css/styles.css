@@ -52,10 +52,12 @@ p, a, ul, ul li, ol li {
 }
 .banner h1 {
   font-size: 45px;
+  margin-bottom: 0;
 }
 .banner .text-container p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.4;
+  margin-bottom: 0;
 }
 
 h1 {
