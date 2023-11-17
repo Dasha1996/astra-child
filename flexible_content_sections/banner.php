@@ -13,7 +13,7 @@ $banner_text = get_sub_field('banner_text');
             }?>
             <?if(!empty($banner_text)) {
                 echo $banner_text;
-                ?><img src="<?php echo $test;?>" alt =""/><?
+                ?><img class="cloud" src="<?php echo $test;?>" alt =""/><?
 
             }?>
     </div>
@@ -21,7 +21,7 @@ $banner_text = get_sub_field('banner_text');
     <div class="col">
         <?if(!empty($image)) {
             ?>
-            <img class="cloud" src="<?php echo $image;?>" alt =""/>
+            <img  src="<?php echo $image;?>" alt =""/>
             <?
         }?>
     </div>
