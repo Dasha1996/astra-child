@@ -21,10 +21,14 @@ $button_link = get_sub_field('button_link');
                     <a href="<?php echo $button_link;?>" class="button"><?php echo $button_text;?>></a>
                     <img class="cloud" src="<?php echo $test;?>" alt =""/>
                 </div>
-                <div class="button-container">
-                    <a href="<?php echo $button_link;?>" class="button"><?php echo $button_text;?>></a>
-                </div>
                 <?
+                if(!empty($button_text) && !empty($button_link)) {
+                    ?>
+                        <div class="button-container">
+                            <a href="<?php echo $button_link;?>" class="button"><?php echo $button_text;?>></a>
+                        </div>
+                    <?
+                }
 
             }?>
     </div>
