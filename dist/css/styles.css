@@ -34,6 +34,11 @@ p, a, ul, ul li, ol li {
   font-size: 20px;
 }
 
+/*global container width*/
+.container {
+  width: 900px;
+}
+
 /*---------- HOME PAGE --------*/
 /*Banner image*/
 .banner {
@@ -44,7 +49,7 @@ p, a, ul, ul li, ol li {
   width: 50%;
 }
 .banner .text-container {
-  width: 65%;
+  width: 450px;
   margin: auto;
   display: flex;
   flex-direction: column;
