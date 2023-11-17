@@ -26,8 +26,8 @@ body {
 
 /*remove paddings/margins from above*/
 .ast-plain-container.ast-no-sidebar #primary {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /*Banner image*/
