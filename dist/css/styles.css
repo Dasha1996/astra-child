@@ -68,6 +68,19 @@ p, a, ul, ul li, ol li {
   line-height: 1.4;
   margin-bottom: 0;
 }
+.banner .text-container p span {
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d3ccff), to(#d3ccff));
+  background-image: linear-gradient(180deg, #d3ccff 0%, #d3ccff 100%);
+  background-size: 0% 18%;
+  background-position: 0 89%;
+  -webkit-transition: background-size 0.8s ease-in-out;
+  transition: background-size 0.8s ease-in-out;
+  margin: 0 -3px;
+  padding: 0 3px;
+  font-style: normal;
+  will-change: background-size;
+}
 
 h1 {
   color: #d3ccff;
