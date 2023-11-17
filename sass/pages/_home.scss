@@ -8,9 +8,9 @@
     .text-container {
         width:65%;
         margin: auto;
-        @include flexbox;
+        display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
     }
     span {
         font-size: 20px;
