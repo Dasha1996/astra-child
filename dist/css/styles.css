@@ -121,8 +121,8 @@ span.in-view {
   flex-direction: column;
   gap: 20px;
 }
-.banner .text-container span {
-  font-size: 22px;
+.banner .text-container > span {
+  font-size: 21px;
 }
 .banner .text-container p {
   margin-bottom: 0;

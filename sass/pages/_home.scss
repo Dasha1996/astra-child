@@ -12,8 +12,8 @@
         display: flex;
         flex-direction: column;
         gap: $banner-distance;
-        span {
-            font-size: 22px;
+        & > span {
+            font-size: 21px;
         }
         p {
             margin-bottom: 0;
