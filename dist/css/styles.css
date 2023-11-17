@@ -79,6 +79,18 @@ span.in-view {
   z-index: 0;
 }
 
+.button-container a.button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-radius: 0;
+  font-size: 20px;
+  text-decoration: none !important;
+  box-shadow: 5px 5px #000;
+  border: 2px solid #000 !important;
+  transition: all ease-in 0.2s !important;
+}
+
 /*---------- HOME PAGE --------*/
 /*Banner image*/
 .banner {
