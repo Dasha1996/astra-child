@@ -33,9 +33,10 @@
         background-position: 0 89%;
         -webkit-transition: background-size 0.8s ease-in-out;
         transition: background-size 0.8s ease-in-out;
-        margin: 0 -3px;
-        padding: 0 3px;
         font-style: normal;
         will-change: background-size;
+    }
+    .text-container.in-view p span {
+        background-size: 100% 18%;
     }
 }
