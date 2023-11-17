@@ -1,6 +1,6 @@
 (function($) {
+    console.log("loaded");
     $(document).ready(function() {
-        console.log("loaded");
         $(window).on('scroll resize', function() {
             $('.banner span').each(function() {
                 if (isElementInViewport(this)) {
