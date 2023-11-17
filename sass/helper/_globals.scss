@@ -59,15 +59,21 @@ span.in-view {
 }
 
 .cloud-button {
+    width: 155px;
     position: relative;
+    height: 51px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
 
     a {
         position: relative;
+        padding: 0;
         z-index: 9;
         background-color: transparent !important;
     }
     .cloud {
-        width: 50%;
+        width: 100%;
         position: absolute;
         top: 0;
         left: 0;
