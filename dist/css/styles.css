@@ -24,6 +24,12 @@ body {
   display: none;
 }
 
+/*remove paddings/margins from above*/
+.ast-plain-container.ast-no-sidebar #primary {
+  margin: 0;
+  padding: 0;
+}
+
 /*Banner image*/
 .banner {
   display: flex;
