@@ -80,7 +80,7 @@ p, a, ul, ul li, ol li {
   will-change: background-size;
 }
 .banner span.in-view {
-  background-size: 100% 18%;
+  background-size: 100% 18% !important;
 }
 
 h1 {
