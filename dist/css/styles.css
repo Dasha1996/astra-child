@@ -54,6 +54,9 @@ p, a, ul, ul li, ol li {
 .banner span {
   font-size: 20px;
 }
+.banner h1 {
+  font-size: 45px;
+}
 .banner .text-container p {
   font-size: 25px;
   line-height: 1.5;
