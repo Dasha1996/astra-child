@@ -130,10 +130,11 @@ span.in-view {
 }
 .banner .text-container {
   /*width:450px;*/
-  padding: 0 130px 0 120px;
+  padding: 40px 130px 40px 120px;
   margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
 }
 .banner .text-container h1 {
@@ -145,6 +146,9 @@ span.in-view {
 }
 .banner .text-container p {
   margin-bottom: 0;
+}
+.banner .text-container img {
+  height: 100%;
 }
 .banner .button-container {
   margin-top: 20px;

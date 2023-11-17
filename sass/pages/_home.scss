@@ -15,10 +15,11 @@
     }
     .text-container {
         /*width:450px;*/
-        padding: 0 130px 0 120px;
+        padding: 40px 130px 40px 120px;
         margin: auto;
         display: flex;
-        flex-direction: column;
+            flex-direction: column;
+            justify-content: center;
         gap: $banner-distance;
         h1 {
             font-size: 45px;
@@ -29,6 +30,9 @@
         }
         p {
             margin-bottom: 0;
+        }
+        img {
+            height: 100%;
         }
     }
     .button-container {
