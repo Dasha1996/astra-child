@@ -130,7 +130,7 @@ span.in-view {
 }
 .banner .text-container {
   /*width:450px;*/
-  padding: 40px 130px 40px 120px;
+  padding: 40px 150px 40px 150px;
   margin: auto;
   display: flex;
   flex-direction: column;
