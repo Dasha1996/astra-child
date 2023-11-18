@@ -58,12 +58,10 @@
             justify-content: flex-start;
             width: 100%;
             background: $linear-gradient;
-            height: 40px;
+            padding: 20px;
             border-bottom: $border-bottom;
             img {
                 width: 40px;
-                object-fit: contain;
-                filter: invert(100%);
             }
         }
     }

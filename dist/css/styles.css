@@ -181,13 +181,11 @@ span.in-view {
   justify-content: flex-start;
   width: 100%;
   background: linear-gradient(90deg, hsl(248, 100%, 90%) 0%, 20%, hsl(269, 100%, 90%));
-  height: 40px;
+  padding: 20px;
   border-bottom: 2px solid black;
 }
 .services-container .card-tab .tab img {
   width: 40px;
-  object-fit: contain;
-  filter: invert(100%);
 }
 .services-container .card-items {
   display: flex;
