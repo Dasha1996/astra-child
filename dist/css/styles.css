@@ -179,7 +179,7 @@ span.in-view {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background: linear-gradient(90deg, #B4B1E5 0%, 20%, #D5C0EC);
+  background: linear-gradient(90deg, hsl(248, 100%, 90%) 0%, 20%, hsl(269, 100%, 90%));
   height: 40px;
   border-bottom: 2px solid black;
 }

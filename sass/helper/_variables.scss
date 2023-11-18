@@ -7,7 +7,8 @@ $backgroundColor: #FFFDF7;
 $container-width: 1315px;
 $banner-distance: 20px;
 $border-bottom-color:  rgb(13, 13, 13);
-$linear-gradient: linear-gradient(90deg, #B4B1E5 0%,20%,#D5C0EC);
+//$linear-gradient: linear-gradient(90deg, #B4B1E5 0%,20%,hsl(269, 54%, 84%));
+$linear-gradient: linear-gradient(90deg, hsl(248, 100%, 90%) 0%,20%,hsl(269, 100%, 90%));
 $border-bottom: 2px solid black;
 
 
