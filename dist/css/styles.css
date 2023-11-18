@@ -1,5 +1,5 @@
 /*variables*/
-.flexbox-center, .services-container {
+.flexbox-center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,6 +168,19 @@ span.in-view {
 }
 .banner .button-container {
   margin-top: 20px;
+}
+
+.services-container {
+  display: flex;
+  /*services cards*/
+}
+.services-container .card-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.services-container .card-tab img {
+  width: 70px;
 }
 
 h1 {

@@ -45,5 +45,13 @@
 }
 
 .services-container {
-    @extend .flexbox-center;
+    display: flex;
+    /*services cards*/
+    .card-tab {
+        @include flex-column;
+        gap: 20px;
+        img {
+            width: 70px;
+        }
+    }
 }

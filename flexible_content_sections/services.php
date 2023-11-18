@@ -10,8 +10,10 @@ if(have_rows('services_cards')) {
         ?>
         <div class="service-card card-tab">
             <img src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>">
-            <h3><?php echo $title;?></h3>
-            <p><?php echo $description;?></p>
+            <div class="text-container">
+                <h3><?php echo $title;?></h3>
+                <p><?php echo $description;?></p>
+            </div>
         </div>
 
         <?php
