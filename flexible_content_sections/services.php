@@ -1,10 +1,10 @@
 <?php
-if(have_rows('services')) {
-    while(have_rows('services')) {
+if(have_rows('services_cards')) {
+    while(have_rows('services_cards')) {
 
         the_row();
-        $subtitle = get_sub_field('subtitle');
-        echo $subtitle;
+        $title = get_sub_field('title');
+        echo $title;
     }
 }
 //if have rows
