@@ -43,3 +43,7 @@
         margin-top: 20px;
     }
 }
+
+.services-container {
+    @extend .flexbox-center;
+}

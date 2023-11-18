@@ -1,4 +1,10 @@
 /*variables*/
+.flexbox-center, .services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*------------ GLOBAL STYLES --------*/
 *,
 *:before,
