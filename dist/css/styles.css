@@ -181,7 +181,7 @@ span.in-view {
   justify-content: flex-start;
   width: 100%;
   background: linear-gradient(90deg, hsl(248, 100%, 90%) 0%, 20%, hsl(269, 100%, 90%));
-  padding: 20px;
+  padding: 7px 20px;
   border-bottom: 2px solid black;
   gap: 15px;
 }
