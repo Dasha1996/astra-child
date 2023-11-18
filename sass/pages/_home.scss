@@ -49,18 +49,22 @@
         justify-content: space-between;
     @include container;
     /*services cards*/
-    .card-tab {
+    .card-tab{
         width: 33%;
-        @include flex-column;
-        gap: 20px;
-        border:2px solid black;
-        padding: 30px;
         .tab {
             @include flexbox;
             justify-content: space-between;
             width: 100%;
             background: $linear-gradient;
+            height: 40px;
+            border-bottom: 2px solid black;
         }
+    }
+    .card-items {
+        @include flex-column;
+        gap: 20px;
+        border:2px solid black;
+        padding: 30px;
         img {
             width: 70px;
         }
