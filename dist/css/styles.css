@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /*------------ GLOBAL STYLES --------*/
@@ -53,7 +54,7 @@ p, a, ul, ul li, ol li {
 
 /*global container width*/
 .container {
-  width: 1170px;
+  width: 1315px;
   margin: auto;
 }
 
@@ -172,12 +173,16 @@ span.in-view {
 
 .services-container {
   display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
   /*services cards*/
 }
 .services-container .card-tab {
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border: 2px solid black;
 }
 .services-container .card-tab img {
   width: 70px;

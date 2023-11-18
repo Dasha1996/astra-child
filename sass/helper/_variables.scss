@@ -4,7 +4,7 @@ $darkerpurple: #7971AA;
 $dark: #7971AA;
 $textColor: black;
 $backgroundColor: #FFFDF7;
-$container-width: 1170px;
+$container-width: 1315px;
 $banner-distance: 20px;
 $border-bottom-color:  rgb(13, 13, 13);
 
@@ -12,5 +12,6 @@ $border-bottom-color:  rgb(13, 13, 13);
     display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
 }
 

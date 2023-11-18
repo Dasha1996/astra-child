@@ -46,10 +46,14 @@
 
 .services-container {
     display: flex;
+        justify-content: space-between;
+    @include container;
     /*services cards*/
     .card-tab {
+        width: 30%;
         @include flex-column;
         gap: 20px;
+        border:2px solid black;
         img {
             width: 70px;
         }
