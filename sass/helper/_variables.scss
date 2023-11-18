@@ -4,11 +4,7 @@ $darkerpurple: #7971AA;
 $dark: #7971AA;
 $textColor: black;
 $backgroundColor: #FFFDF7;
-$container-width: 900px;
+$container-width: 1170px;
 $banner-distance: 20px;
 $border-bottom-color:  rgb(13, 13, 13);
 
-/*mobile screens*/
-@media only screen and (min-width: 1600px) {
-    $container-width: 1200px;
-}

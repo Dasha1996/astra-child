@@ -1,5 +1,4 @@
 /*variables*/
-/*mobile screens*/
 /*------------ GLOBAL STYLES --------*/
 *,
 *:before,
@@ -44,7 +43,7 @@ p, a, ul, ul li, ol li {
 
 /*global container width*/
 .container {
-  width: 900px;
+  width: 1170px;
   margin: auto;
 }
 
