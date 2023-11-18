@@ -184,6 +184,11 @@ span.in-view {
   height: 40px;
   border-bottom: 2px solid black;
 }
+.services-container .card-tab .tab img {
+  width: 40px;
+  object-fit: contain;
+  filter: invert(100%);
+}
 .services-container .card-items {
   display: flex;
   flex-direction: column;

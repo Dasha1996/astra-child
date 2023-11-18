@@ -60,6 +60,11 @@
             background: $linear-gradient;
             height: 40px;
             border-bottom: $border-bottom;
+            img {
+                width: 40px;
+                object-fit: contain;
+                filter: invert(100%);
+            }
         }
     }
     .card-items {
