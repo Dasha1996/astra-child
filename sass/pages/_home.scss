@@ -47,6 +47,7 @@
 .services-container {
     display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     @include container;
     /*services cards*/
     .card-tab{
