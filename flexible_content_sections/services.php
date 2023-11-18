@@ -10,9 +10,9 @@ if(have_rows('services_cards')) {
         ?>
         <div class="service-card card-tab">
             <div class="tab">
-            <img src="/wp-content/uploads/2023/11/dots.png" alt="">
-                <!--<img src="/wp-content/uploads/2023/11/close-1.png" alt="">
-                <img src="/wp-content/uploads/2023/11/tabs_white.png" alt=""> -->
+            <!--<img src="/wp-content/uploads/2023/11/dots.png" alt="">-->
+                <img src="/wp-content/uploads/2023/11/thin_cross_black.png" alt="">
+                <img src="/wp-content/uploads/2023/11/tabs_white.png" alt=""> 
                 <div class="line"></div>
             </div>
             <div class="card-items">
