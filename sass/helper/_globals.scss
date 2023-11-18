@@ -44,6 +44,7 @@ p, a, ul, ul li, ol li {
 /*global container width*/
 .container {
     width: $container-width;
+    margin: auto;
 }
 
 /*black line under each container*/

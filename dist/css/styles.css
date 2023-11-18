@@ -43,6 +43,7 @@ p, a, ul, ul li, ol li {
 /*global container width*/
 .container {
   width: 900px;
+  margin: auto;
 }
 
 /*black line under each container*/
