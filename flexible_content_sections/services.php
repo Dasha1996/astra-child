@@ -3,7 +3,7 @@ if(have_rows('services')) {
     while(have_rows('services')) {
 
         the_row();
-        $subtitle = get_field('subtitle');
+        $subtitle = get_sub_field('subtitle');
         echo $subtitle;
     }
 }
