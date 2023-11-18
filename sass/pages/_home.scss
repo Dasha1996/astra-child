@@ -55,6 +55,12 @@
         gap: 20px;
         border:2px solid black;
         padding: 30px;
+        .tab {
+            @include flexbox;
+            justify-content: space-between;
+            width: 100%;
+            background: $linear-gradient;
+        }
         img {
             width: 70px;
         }

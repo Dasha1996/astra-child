@@ -9,6 +9,9 @@ if(have_rows('services_cards')) {
         $description = get_sub_field('service_description');
         ?>
         <div class="service-card card-tab">
+            <div class="tab">
+                
+            </div>
             <img src="<?php echo $icon['url'];?>" alt="<?php echo $icon['alt'];?>">
             <div class="text-container">
                 <h3><?php echo $title;?></h3>
