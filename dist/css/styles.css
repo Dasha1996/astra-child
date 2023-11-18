@@ -172,6 +172,7 @@ span.in-view {
 }
 .services-container .card-tab {
   width: 33%;
+  border: 2px solid black;
 }
 .services-container .card-tab .tab {
   display: flex;
@@ -186,7 +187,6 @@ span.in-view {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid black;
   padding: 30px;
 }
 .services-container .card-items img {

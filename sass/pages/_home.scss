@@ -51,19 +51,19 @@
     /*services cards*/
     .card-tab{
         width: 33%;
+        border: $border-bottom;
         .tab {
             @include flexbox;
             justify-content: space-between;
             width: 100%;
             background: $linear-gradient;
             height: 40px;
-            border-bottom: 2px solid black;
+            border-bottom: $border-bottom;
         }
     }
     .card-items {
         @include flex-column;
         gap: 20px;
-        border:2px solid black;
         padding: 30px;
         img {
             width: 70px;
