@@ -183,6 +183,7 @@ span.in-view {
   flex-direction: column;
   gap: 20px;
   border: 2px solid black;
+  padding: 30px;
 }
 .services-container .card-tab img {
   width: 70px;
