@@ -31,6 +31,10 @@ body {
   padding: 0 !important;
 }
 
+h3 {
+  font-size: 37px !important;
+}
+
 p, a, ul, ul li, ol li {
   font-size: 20px;
   line-height: 1.4;
@@ -168,6 +172,7 @@ span.in-view {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 40px;
   padding: 50px 0;
   /*services cards*/
 }
@@ -187,6 +192,9 @@ span.in-view {
 }
 .services-container .card-tab .tab img {
   width: 30px;
+}
+.services-container .card-tab .tab .cross {
+  width: 25px;
 }
 .services-container .card-items {
   display: flex;
