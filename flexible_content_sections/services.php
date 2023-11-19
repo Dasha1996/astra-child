@@ -1,11 +1,11 @@
 <?php
+?><div class="container services-section"><?php
 $subtitle = get_sub_field('subtitle');
 $section_heading_intro = get_sub_field('section_heading_and_text');
 echo $subtitle;
-echo "test";
 echo $section_heading_intro;
 if(have_rows('services_cards')) {
-    ?><div class="container services-container flexbox"><?php
+    ?><div class="services-container flexbox"><?php
     while(have_rows('services_cards')) {
 
         the_row();
@@ -34,6 +34,7 @@ if(have_rows('services_cards')) {
         }
     ?></div><?php
 }
+?></div><?
 //if have rows
 //while have ros
 //the row
