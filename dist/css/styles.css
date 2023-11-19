@@ -189,6 +189,7 @@ span.in-view {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 40px;
+  padding: 25px 0;
   /*services cards*/
 }
 .services-section .services-container .card-tab {
