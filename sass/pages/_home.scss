@@ -43,39 +43,41 @@
         margin-top: 20px;
     }
 }
-
-.services-container {
-    display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 40px;
-    @include container;
-    /*services cards*/
-    .card-tab{
-        width: 48%;
-        border: $border-bottom;
-        .tab {
-            @include flexbox;
-            justify-content: flex-start;
-            width: 100%;
-            background: $linear-gradient;
-            padding: 7px 20px;
-            border-bottom: $border-bottom;
-            gap: 15px;
-            img {
-                width: 30px;
-            }
-            .cross {
-                width: 25px;
+.services-section {
+    padding: 50px 0;
+    .services-container {
+        display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+        @include container;
+        /*services cards*/
+        .card-tab{
+            width: 48%;
+            border: $border-bottom;
+            .tab {
+                @include flexbox;
+                justify-content: flex-start;
+                width: 100%;
+                background: $linear-gradient;
+                padding: 7px 20px;
+                border-bottom: $border-bottom;
+                gap: 15px;
+                img {
+                    width: 30px;
+                }
+                .cross {
+                    width: 25px;
+                }
             }
         }
-    }
-    .card-items {
-        @include flex-column;
-        gap: 20px;
-        padding: 30px;
-        img {
-            width: 70px;
+        .card-items {
+            @include flex-column;
+            gap: 20px;
+            padding: 30px;
+            img {
+                width: 70px;
+            }
         }
     }
 }
