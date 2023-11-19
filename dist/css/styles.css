@@ -186,7 +186,7 @@ span.in-view {
 }
 .services-section .services-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
   padding: 25px 0;
