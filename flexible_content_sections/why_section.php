@@ -13,7 +13,7 @@ $button_link = get_field('button_link');
             $text = get_sub_field('text');
             ?>
                 <div class="list-item">
-                    <img src="<?php echo $icon;?>" alt="">
+                    <img src="<?php echo $icon['url'];?>" alt="">
                     <div class="text">
                         <?php echo $text;?>
                     </div>
