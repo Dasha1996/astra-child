@@ -2,9 +2,10 @@
 if(have_rows('services_cards')) {
     $subtitle = get_sub_field('subtitle');
     $section_heading_intro = get_sub_field('section_heading_and_text');
-    ?><div class="container services-container flexbox"><?php
     echo $subtitle;
+    echo "test";
     echo $section_heading_intro;
+    ?><div class="container services-container flexbox"><?php
     while(have_rows('services_cards')) {
 
         the_row();
