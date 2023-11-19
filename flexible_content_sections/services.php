@@ -2,7 +2,7 @@
 ?><div class="container services-section"><?php
 $subtitle = get_sub_field('subtitle');
 $section_heading_intro = get_sub_field('section_heading_and_text');
-echo '<span style="text-align: center">' . $subtitle . '</span>';
+echo '<span class="center">' . $subtitle . '</span>';
 echo $section_heading_intro;
 if(have_rows('services_cards')) {
     ?><div class="services-container flexbox"><?php
