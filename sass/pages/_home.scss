@@ -43,14 +43,15 @@
         margin-top: 20px;
     }
 }
+
+/*------ SERVICES SECTION -------*/
 .services-section {
-    padding: 50px 0;
+    @include container;
     .services-container {
         display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
             gap: 40px;
-        @include container;
         /*services cards*/
         .card-tab{
             width: 48%;
