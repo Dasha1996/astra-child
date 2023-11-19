@@ -135,3 +135,12 @@ span.in-view {
     }
 }
 
+/*list icon style*/
+.list-item {
+    display: flex;
+        align-items: center;
+    img {
+        width: 26px;
+    }
+}
+
