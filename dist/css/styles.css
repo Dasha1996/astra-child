@@ -159,6 +159,10 @@ span.in-view {
   background: #FFFDF7;
 }
 
+.card-body {
+  background: #FFFDF7;
+}
+
 .carousel-inner .card {
   width: 100%;
 }
