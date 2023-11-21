@@ -160,7 +160,7 @@ span.in-view {
 }
 
 .card-body {
-  background: #FFFDF7;
+  background-color: #FFFDF7 !important;
 }
 
 .carousel-inner .card {

@@ -164,7 +164,7 @@ span.in-view {
 }
 
 .card-body {
-    background: $backgroundColor;
+    background-color: $backgroundColor !important;
 }
 .carousel-inner .card {
 	width: 100%;
