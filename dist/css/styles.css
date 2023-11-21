@@ -136,6 +136,7 @@ span.in-view {
 .list-item {
   display: flex;
   align-items: flex-start;
+  gap: 5px;
 }
 .list-item img {
   width: 26px;
