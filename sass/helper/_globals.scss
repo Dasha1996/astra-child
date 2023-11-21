@@ -259,6 +259,9 @@ span.in-view {
     max-width: 100%;
   }
 }
+.carousel-one .carousel-inner .carousel-item > div {
+    font-weight: normal !important;
+}
 /* medium and up screens */
 @media only screen and (min-width:768px) {
     .carousel-one .carousel-inner .carousel-item.active,
@@ -282,4 +285,10 @@ span.in-view {
   .carousel-one .carousel-inner .carousel-item-start {
       transform: translateX(0) !important;
     }
+    .carousel-one .carousel-inner .carousel-item > div {
+        font-weight: normal !important;
+    }
   }
+  .carousel-one .carousel-inner .carousel-item > div {
+    font-weight: normal !important;
+}
