@@ -23,7 +23,7 @@
                       //adds slides that follow the copied slide for a smooth transition between slides
                       if(window.innerWidth > 1100) {
                           console.log("more");
-                          for (let n = 0; n < 1; n++) {
+                          for (let n = 0; n < 3; n++) {
                           i = i.next();
                           if (i.length === 0) {
                             i = $(this).siblings(":first");
