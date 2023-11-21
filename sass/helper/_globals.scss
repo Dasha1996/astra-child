@@ -260,7 +260,7 @@ span.in-view {
   }
 }
 .carousel-one .carousel-inner .carousel-item > div {
-    font-weight: normal !important;
+    font-weight: 400 !important;
 }
 /* medium and up screens */
 @media only screen and (min-width:768px) {
@@ -286,9 +286,12 @@ span.in-view {
       transform: translateX(0) !important;
     }
     .carousel-one .carousel-inner .carousel-item > div {
-        font-weight: normal !important;
+        font-weight: 400 !important;
     }
   }
-  .carousel-one .carousel-inner .carousel-item > div {
-    font-weight: normal !important;
+  .carousel-one .carousel-inner .carousel-item-end h3,
+  .carousel-one .carousel-inner .carousel-item-end p,
+  .carousel-one .carousel-inner .carousel-item-start h3,
+  .carousel-one .carousel-inner .carousel-item-start p {
+    font-weight: 400 !important;
 }
