@@ -256,4 +256,19 @@ span.in-view {
     max-width: 100%;
   }
 }
-
+/* medium and up screens */
+@media only screen and (min-width:768px) {
+    .carousel-one .carousel-inner .carousel-item.active,
+  .carousel-one .carousel-inner .carousel-item-next,
+  .carousel-one .carousel-inner .carousel-item-prev {
+      display: flex !important;
+    }
+  }
+  
+  @media only screen and (min-width:768px) {
+      .carousel-one .carousel-inner .carousel-item-end.active,
+  .carousel-one .carousel-inner .carousel-item-next {
+      transform: translateX(33%) !important; /*must be equal to the width of the column with card*/
+    }
+    
+  }
