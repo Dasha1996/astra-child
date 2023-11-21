@@ -21,7 +21,7 @@
                       //copies the first child into carousel-item div (the first html child e.g. img or div container)
                       i.children(":first-child").clone().appendTo($(this));
                       //adds slides that follow the copied slide for a smooth transition between slides
-                      if(window.innerWidth > 1100) {
+                      if(window.innerWidth > 768) {
                           console.log("more");
                           for (let n = 0; n < 3; n++) {
                           i = i.next();
