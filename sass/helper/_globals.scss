@@ -160,6 +160,7 @@ span.in-view {
 .card {
 	width: 30%;
 	min-height: 412px;
+    background: $backgroundColor;
 }
 .carousel-inner .card {
 	width: 100%;
@@ -274,11 +275,11 @@ span.in-view {
   @media only screen and (min-width:768px) {
     .carousel-one .carousel-inner .carousel-item-end.active,
     .carousel-one .carousel-inner .carousel-item-next {
-        transform: translateX(34.33%) !important; /*must be equal to the width of the column with card*/
+        transform: translateX(33%) !important; /*must be equal to the width of the column with card*/
       }
     .carousel-one .carousel-inner .carousel-item-start.active,
   .carousel-one .carousel-inner .carousel-item-prev {
-      transform: translateX(-34.33%) !important;
+      transform: translateX(-33%) !important;
     }
   
    .carousel-one .carousel-inner .carousel-item-end,
