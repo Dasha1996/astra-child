@@ -8,6 +8,7 @@ $image = get_field('image');
     <div class="container">
         <div class="half-column">
     <?php echo $title_intro;?>
+</div>
     <?
     if(have_rows('list_items')) {
         ?><div class="list-items-container"><?php
@@ -27,6 +28,6 @@ $image = get_field('image');
         ?></div><?php
     }
 ?>
-</div>
+
 </div>
 </div>
