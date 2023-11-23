@@ -85,3 +85,14 @@
 }
 
 /*---------WHY SECTION ------*/
+.why-section .container {
+    position: relative;
+}
+
+img.logo-rotate {
+    position: absolute;
+    /* right: 144px; */
+    left: 76%;
+    width: 300px;
+    top: 0;
+}
