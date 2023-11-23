@@ -396,11 +396,11 @@ span.in-view {
   position: relative;
 }
 
-img.logo-rotate {
+.rotate-shape {
   position: absolute;
   /* right: 144px; */
   left: 76%;
-  width: 300px;
+  width: 200px;
   top: 0;
 }
 

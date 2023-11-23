@@ -9,7 +9,10 @@ $image = get_sub_field('image');
         <div class="half-column">
     <?php echo $title_intro;?>
 </div>
-<img class="logo-rotate" src="<?php echo $image['url'];?>" alt = <?php echo $image['alt'];?>/>
+<div class="rotate-shape">
+    <img class="shape" src="<?php echo $image['url'];?>" alt = <?php echo $image['alt'];?>/>
+    <img class="pink-rotate" src="/wp-content/uploads/2023/11/pink_circle.png" alt=""/>
+</div>
 
     <?
     if(have_rows('list_items')) {
