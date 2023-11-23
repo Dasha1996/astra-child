@@ -9,6 +9,8 @@ $image = get_field('image');
         <div class="half-column">
     <?php echo $title_intro;?>
 </div>
+<img src="<?php echo $image['url'];?>" alt = <?php echo $image['alt'];?>/>
+
     <?
     if(have_rows('list_items')) {
         ?><div class="list-items-container"><?php
