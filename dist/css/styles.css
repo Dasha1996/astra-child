@@ -67,6 +67,10 @@ span.center {
   margin: auto;
 }
 
+.half-column {
+  width: 50%;
+}
+
 /*black line under each container*/
 hr {
   background-color: rgb(13, 13, 13);
