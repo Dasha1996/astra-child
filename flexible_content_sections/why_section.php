@@ -2,7 +2,11 @@
 $title_intro = get_sub_field('title_and_intro');
 $button_text = get_field('button_text');
 $button_link = get_field('button_link');
-?><div class="why-section container">
+$image = get_field('image');
+
+?><div class="why-section">
+    <div class="container">
+        <div class="half-column">
     <?php echo $title_intro;?>
     <?
     if(have_rows('list_items')) {
@@ -23,4 +27,6 @@ $button_link = get_field('button_link');
         ?></div><?php
     }
 ?>
+</div>
+</div>
 </div>
