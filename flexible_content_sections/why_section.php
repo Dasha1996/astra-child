@@ -1,8 +1,8 @@
 <?php
 $title_intro = get_sub_field('title_and_intro');
-$button_text = get_field('button_text');
-$button_link = get_field('button_link');
-$image = get_field('image');
+$button_text = get_sub_field('button_text');
+$button_link = get_sub_field('button_link');
+$image = get_sub_field('image');
 
 ?><div class="why-section">
     <div class="container">
