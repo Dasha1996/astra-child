@@ -395,7 +395,8 @@ span.in-view {
   padding: 25px 0;
   position: relative;
   z-index: 9;
-  width: 1300px;
+  width: 90%;
+  max-width: 1480px;
   margin: auto;
   /*services cards*/
 }

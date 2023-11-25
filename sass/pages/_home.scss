@@ -84,7 +84,8 @@
         @include inner-container;
         position: relative;
         z-index: 9;
-        width: calc($container-width + 100px);
+        width:90%;
+        max-width: 1480px;
         margin: auto;
         /*services cards*/
         .card-tab{
