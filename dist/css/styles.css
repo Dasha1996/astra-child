@@ -369,6 +369,7 @@ span.in-view {
   gap: 20px;
   padding: 25px 0;
   width: 1200px;
+  margin: auto;
   /*services cards*/
 }
 .services-section .services-container .card-tab {
