@@ -4,6 +4,7 @@ $subtitle = get_sub_field('subtitle');
 $section_heading_intro = get_sub_field('section_heading_and_text');
 echo '<span class="center">' . $subtitle . '</span>';
 echo $section_heading_intro;
+?><img src="/wp-content/uploads/2023/11/cube.png" class="cube" alt="rotating cube with purple and pink sides"/><?
 if(have_rows('services_cards')) {
     ?><div class="services-container flexbox"><?php
     while(have_rows('services_cards')) {
