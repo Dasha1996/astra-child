@@ -11,7 +11,7 @@ $image = get_sub_field('image');
 </div>
 <div class="rotate-shape">
     <img class="shape" src="<?php echo $image['url'];?>" alt = <?php echo $image['alt'];?>/>
-    <img class="pink-rotate" src="/wp-content/uploads/2023/11/pink_circle(1).png" alt=""/>
+    <img class="pink-rotate" src="/wp-content/uploads/2023/11/pink_circle-1.png" alt=""/>
 </div>
 
     <?
