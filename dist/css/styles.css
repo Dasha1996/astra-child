@@ -386,7 +386,7 @@ span.in-view {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 30px;
+  padding: 20px;
 }
 .services-section .services-container .card-items img {
   width: 70px;
