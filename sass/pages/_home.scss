@@ -60,12 +60,13 @@
         h2, span {
             width: fit-content;
             margin: auto;
+            margin-bottom: 20px;
         }
         img.arrow {
             position: absolute;
-            width: 163px;
-            right: -548px;
-            bottom: -73px;
+            width: 64px;
+            right: -71px;
+            bottom: -24px;
             transform: rotate(44deg);
         }
     }
