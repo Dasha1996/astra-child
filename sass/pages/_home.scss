@@ -48,7 +48,7 @@
 .services-section {
     @include container;
     width: 100%;
-    padding: 90px 0;
+    padding: 60px 0;
     width: 100%;
     position: relative;
     background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/11/image.png);
@@ -56,7 +56,7 @@
     img.cube {
         position: absolute;
         width: 83px;
-        top: 47px;
+        top: 11px;
         left: 494px;
         animation: spin 50s linear infinite;
     }
