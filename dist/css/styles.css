@@ -433,7 +433,7 @@ span.in-view {
 }
 .services-section img.cells {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   width: 300px;
   z-index: 1;
 }
