@@ -423,7 +423,8 @@ span.in-view {
   padding: 20px;
 }
 .services-section .services-container .card-items img {
-  width: 70px;
+  max-width: 70px;
+  max-height: 53px;
 }
 
 /*---------WHY SECTION ------*/

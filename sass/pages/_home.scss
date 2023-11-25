@@ -108,7 +108,8 @@
             gap: 20px;
             padding: 20px;
             img {
-                width: 70px;
+                max-width: 70px;
+                max-height:53px;
             }
         }
     }
