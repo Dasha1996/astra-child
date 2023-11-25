@@ -53,6 +53,21 @@
     position: relative;
     background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/11/image.png);
     background-size: cover;
+    .heading-arrow {
+        position: relative;
+        width: fit-content;
+        margin: auto;
+        h2, span {
+            width: fit-content;
+        }
+        img.arrow {
+            position: absolute;
+            width: 64px;
+            right: -71px;
+            bottom: -24px;
+            transform: rotate(44deg);
+        }
+    }
     img.cube {
         position: absolute;
         width: 83px;

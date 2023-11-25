@@ -364,6 +364,21 @@ span.in-view {
   background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/11/image.png);
   background-size: cover;
 }
+.services-section .heading-arrow {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+.services-section .heading-arrow h2, .services-section .heading-arrow span {
+  width: fit-content;
+}
+.services-section .heading-arrow img.arrow {
+  position: absolute;
+  width: 64px;
+  right: -71px;
+  bottom: -24px;
+  transform: rotate(44deg);
+}
 .services-section img.cube {
   position: absolute;
   width: 83px;
