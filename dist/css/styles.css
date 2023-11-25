@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  font-size: 37px !important;
+  font-size: 33px !important;
 }
 
 p, a, ul, ul li, ol li {
@@ -357,18 +357,24 @@ span.in-view {
 /*------ SERVICES SECTION -------*/
 .services-section {
   padding: 90px 0;
-  width: 1340px;
+  width: 100%;
+  padding: 90px 0;
+  width: 100%;
+  background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/11/image.png);
+  background-size: cover;
 }
 .services-section .services-container {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 25px 0;
+  width: 1200px;
   /*services cards*/
 }
 .services-section .services-container .card-tab {
   width: 33.33%;
   border: 2px solid black;
+  background-color: #FFFDF7;
 }
 .services-section .services-container .card-tab .tab {
   display: flex;

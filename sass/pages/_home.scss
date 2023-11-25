@@ -47,16 +47,22 @@
 /*------ SERVICES SECTION -------*/
 .services-section {
     @include container;
-    width: 1340px;
+    width: 100%;
+    padding: 90px 0;
+    width: 100%;
+    background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/11/image.png);
+    background-size: cover;
     .services-container {
         display: flex;
             justify-content: center;
             gap: 20px;
             @include inner-container;
+            width: $container-width;
         /*services cards*/
         .card-tab{
             width: 33.33%;
             border: $border-bottom;
+            background-color: $backgroundColor;
             .tab {
                 @include flexbox;
                 justify-content: flex-start;
