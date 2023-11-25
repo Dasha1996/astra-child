@@ -384,8 +384,8 @@ span.in-view {
 .services-section img.cube {
   position: absolute;
   width: 83px;
-  top: 11px;
-  left: 494px;
+  top: 40px;
+  left: 457px;
   animation: spin 50s linear infinite;
 }
 .services-section .services-container {
