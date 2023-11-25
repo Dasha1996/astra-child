@@ -81,9 +81,11 @@
         display: flex;
             justify-content: center;
             gap: 20px;
-            @include inner-container;
-            width: calc($container-width + 100px);
-            margin: auto;
+        @include inner-container;
+        position: relative;
+        z-index: 9;
+        width: calc($container-width + 100px);
+        margin: auto;
         /*services cards*/
         .card-tab{
             width: 33.33%;
@@ -114,6 +116,12 @@
                 max-height:53px;
             }
         }
+    }
+    img.cells {
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        z-index: 1;
     }
 }
 

@@ -393,6 +393,8 @@ span.in-view {
   justify-content: center;
   gap: 20px;
   padding: 25px 0;
+  position: relative;
+  z-index: 9;
   width: 1300px;
   margin: auto;
   /*services cards*/
@@ -427,6 +429,12 @@ span.in-view {
 .services-section .services-container .card-items img {
   max-width: 70px;
   max-height: 53px;
+}
+.services-section img.cells {
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  z-index: 1;
 }
 
 /*---------WHY SECTION ------*/
