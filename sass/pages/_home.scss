@@ -82,7 +82,7 @@
             justify-content: center;
             gap: 20px;
             @include inner-container;
-            width: $container-width;
+            width: calc($container-width + 100px);
             margin: auto;
         /*services cards*/
         .card-tab{
