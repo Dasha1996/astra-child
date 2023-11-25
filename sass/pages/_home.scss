@@ -50,8 +50,16 @@
     width: 100%;
     padding: 90px 0;
     width: 100%;
+    position: relative;
     background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/11/image.png);
     background-size: cover;
+    img.cube {
+        position: absolute;
+        width: 83px;
+        top: 47px;
+        left: 494px;
+        animation: spin 50s linear infinite;
+    }
     .services-container {
         display: flex;
             justify-content: center;
