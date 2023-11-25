@@ -371,6 +371,7 @@ span.in-view {
 }
 .services-section .heading-arrow h2, .services-section .heading-arrow span {
   width: fit-content;
+  margin: auto;
 }
 .services-section .heading-arrow img.arrow {
   position: absolute;
