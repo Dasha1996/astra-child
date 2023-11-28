@@ -443,6 +443,21 @@ span.in-view {
 .why-section {
   padding: 90px 0;
 }
+.why-section .list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 20px 0;
+  width: 70%;
+  /* margin: auto; */
+  background-color: #fff;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.why-section .list-item p {
+  margin-bottom: 0;
+}
 
 .why-section .container {
   position: relative;
