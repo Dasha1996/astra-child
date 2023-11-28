@@ -132,11 +132,12 @@
     @include container;
     .list-item {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
+        min-height: 98px !important;
         gap: 5px;
         padding: 20px 10px;
         width: 70%;
-        /* margin: auto; */
+            /* margin: auto; */
         background-color: #fff;
         border: 1px solid black;
         margin-bottom: 10px;
