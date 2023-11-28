@@ -447,7 +447,7 @@ span.in-view {
   display: flex;
   align-items: flex-start;
   gap: 5px;
-  padding: 20px 0;
+  padding: 20px 10px;
   width: 70%;
   /* margin: auto; */
   background-color: #fff;
@@ -456,7 +456,7 @@ span.in-view {
   border-radius: 10px;
 }
 .why-section .list-item p {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .why-section .container {
