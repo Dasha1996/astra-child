@@ -191,8 +191,11 @@ img.pink-rotate {
 
 @keyframes bounceRight { 
     0% { 
-        transform: rotate(0);
+        transform: rotate(24deg);
     } 
+    30%{
+        transform: rotate(30deg);
+    }
     100% {
         transform: rotate(44deg);
     }
