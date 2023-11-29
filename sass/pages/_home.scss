@@ -69,7 +69,7 @@
             bottom: -24px;
             transform: rotate(44deg);
             width: 0;
-            transition: all 0.3s;
+            transition: width 0.3s, opacity 0.1s;
         }
         img.arrow.in-view {
             animation: fadeOut 0.1s linear 1 forwards;
