@@ -9,11 +9,13 @@
                     $(this).removeClass('in-view');
                 }
             });
-                if (isElementInViewport('img.arrow')) {
+            $('img.arrow').each(function() {
+                if (isElementInViewport(this)) {
                     $(this).addClass('in-view');
                 } else {
                     $(this).removeClass('in-view');
                 }
+            })
 
         });
     
