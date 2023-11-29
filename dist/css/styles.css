@@ -379,7 +379,6 @@ span.in-view {
   width: 64px;
   right: -71px;
   bottom: -24px;
-  transform: rotate(44deg);
   width: 80px;
   transition: transform 0.3s;
 }
@@ -507,10 +506,10 @@ img.pink-rotate {
 }
 @keyframes bounceRight {
   0% {
-    transform: translate(5px, 5px);
+    transform: rotate(0);
   }
   100% {
-    transform: translate(0, 0);
+    transform: rotate(44deg);
   }
 }
 h1 {
