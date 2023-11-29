@@ -69,10 +69,10 @@
             bottom: -24px;
             transform: rotate(44deg);
             width: 0;
-            transition: width 0.3s, opacity 0.1s;
+            transition: transform 0.3s;
         }
         img.arrow.in-view {
-            animation: fadeOut 0.1s linear 1 forwards;
+            animation: bounceRight 0.1s linear 1 forwards;
         }
     }
     img.cube {
@@ -190,16 +190,11 @@ img.pink-rotate {
     } 
 }
 
-@keyframes fadeOut { 
+@keyframes bonceRight { 
     0% { 
-        width: 0;
-        opacity: 0;
+        transform: translate(5px, 5px);
     } 
-    30% {
-        opacity: 0.5;
-    }
     100% {
-        width: 80px;
-        opacity: 1;
+        transform: translate(0, 0);
     }
 }
