@@ -72,7 +72,7 @@
             transition: all 0.3s;
         }
         img.arrow.in-view {
-            width: 80px;
+            animation: fadeOut 0.5s linear infinite;
         }
     }
     img.cube {

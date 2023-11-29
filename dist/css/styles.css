@@ -384,7 +384,7 @@ span.in-view {
   transition: all 0.3s;
 }
 .services-section .heading-arrow img.arrow.in-view {
-  width: 80px;
+  animation: fadeOut 0.5s linear infinite;
 }
 .services-section img.cube {
   position: absolute;
