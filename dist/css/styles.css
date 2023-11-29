@@ -381,9 +381,10 @@ span.in-view {
   bottom: -24px;
   transform: rotate(44deg);
   width: 0;
+  transition: all 0.3s;
 }
 .services-section .heading-arrow img.arrow.in-view {
-  width: 100%;
+  width: 80px;
 }
 .services-section img.cube {
   position: absolute;

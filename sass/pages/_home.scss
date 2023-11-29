@@ -69,9 +69,10 @@
             bottom: -24px;
             transform: rotate(44deg);
             width: 0;
+            transition: all 0.3s;
         }
         img.arrow.in-view {
-            width: 100%;
+            width: 80px;
         }
     }
     img.cube {
