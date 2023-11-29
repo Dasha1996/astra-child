@@ -9,6 +9,12 @@
                     $(this).removeClass('in-view');
                 }
             });
+                if (isElementInViewport('img.arrow')) {
+                    $(this).addClass('in-view');
+                } else {
+                    $(this).removeClass('in-view');
+                }
+
         });
     
         // Function to check if the element is in the viewport

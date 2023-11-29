@@ -380,6 +380,10 @@ span.in-view {
   right: -71px;
   bottom: -24px;
   transform: rotate(44deg);
+  width: 0;
+}
+.services-section .heading-arrow img.arrow.in-view {
+  width: 100%;
 }
 .services-section img.cube {
   position: absolute;
@@ -498,6 +502,16 @@ img.pink-rotate {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+@keyframes fadeOut {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
   }
 }
 h1 {

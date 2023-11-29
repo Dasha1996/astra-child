@@ -68,6 +68,10 @@
             right: -71px;
             bottom: -24px;
             transform: rotate(44deg);
+            width: 0;
+        }
+        img.arrow.in-view {
+            width: 100%;
         }
     }
     img.cube {
@@ -183,4 +187,15 @@ img.pink-rotate {
         -webkit-transform: rotate(360deg); 
         transform:rotate(360deg); 
     } 
+}
+
+@keyframes fadeOut { 
+    0% { 
+        width: 0;
+        opacity: 0;
+    } 
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
 }
