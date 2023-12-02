@@ -72,7 +72,7 @@
             transition: transform 0.3s ease;
         }
         img.arrow.in-view  {
-            animation: bounceRight 2s ease 5 forwards;
+            animation: bounceRight 2s ease 3 forwards;
             animation-delay: 0.4s;
         }
     }
@@ -136,6 +136,10 @@
 /*---------WHY SECTION ------*/
 .why-section {
     @include container;
+    background-repeat: no-repeat;
+    background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/12/wave-e1701535932907.png);
+    background-position: -7% 175px;
+        /* background-size: 50%; */
     .list-item {
         display: flex;
         min-height: 98px !important;
