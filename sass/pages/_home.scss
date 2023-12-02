@@ -72,7 +72,7 @@
             transition: transform 0.3s ease;
         }
         img.arrow.in-view {
-            animation: bounceRight 0.1s linear 1 forwards;
+            animation: bounceRight 0.1s ease 1 forwards;
         }
     }
     img.cube {
@@ -192,7 +192,7 @@ img.pink-rotate {
 
 @keyframes bounceRight { 
     0% { 
-        transform: rotate(24deg);
+        transform: rotate(44deg);
     } 
     30%{
         transform: rotate(30deg);
