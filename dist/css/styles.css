@@ -380,11 +380,11 @@ span.in-view {
   right: -71px;
   bottom: -24px;
   width: 80px;
-  transform: rotate(24deg);
+  transform: rotate(45deg);
   transition: transform 0.3s ease;
 }
-.services-section .heading-arrow img.arrow.in-view {
-  animation: bounceRight 0.1s ease 1 forwards;
+.services-section .heading-arrow img.arrow {
+  animation: bounceRight 1s ease 3 forwards;
   animation-delay: 0.4s;
 }
 .services-section img.cube {
@@ -508,13 +508,13 @@ img.pink-rotate {
 }
 @keyframes bounceRight {
   0% {
-    transform: rotate(34deg);
+    transform: rotate(45deg);
   }
   30% {
-    transform: rotate(30deg);
+    transform: rotate(55deg);
   }
   100% {
-    transform: rotate(44deg);
+    transform: rotate(45deg);
   }
 }
 h1 {
