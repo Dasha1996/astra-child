@@ -71,8 +71,8 @@
             transform: rotate(45deg);
             transition: transform 0.3s ease;
         }
-        img.arrow  {
-            animation: bounceRight 1s ease 3 forwards;
+        img.arrow.in-view  {
+            animation: bounceRight 2s ease 5 forwards;
             animation-delay: 0.4s;
         }
     }
