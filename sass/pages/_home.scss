@@ -136,9 +136,14 @@
 /*---------WHY SECTION ------*/
 .why-section {
     @include container;
+    /*with vave
     background-repeat: no-repeat;
     background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/12/wave-e1701535932907.png);
-    background-position: -7% 175px;
+    background-position: -7% 175px;*/
+    background-repeat: no-repeat;
+    background-image: url(http://dariyag10.sg-host.com/wp-content/uploads/2023/12/blurred-purple-min.png);
+    background-position: -57px 111%;
+    background-size: 404px;
         /* background-size: 50%; */
     .list-item {
         display: flex;
