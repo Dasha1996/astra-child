@@ -385,6 +385,7 @@ span.in-view {
 }
 .services-section .heading-arrow img.arrow.in-view {
   animation: bounceRight 0.1s ease 1 forwards;
+  animation-delay: 0.4s;
 }
 .services-section img.cube {
   position: absolute;
