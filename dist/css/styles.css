@@ -458,6 +458,9 @@ span.in-view {
   background-size: 404px;
   /* background-size: 50%; */
 }
+.why-section .list-items-container {
+  margin-top: 35px;
+}
 .why-section .list-item {
   display: flex;
   min-height: 98px !important;
