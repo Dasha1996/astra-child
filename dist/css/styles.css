@@ -486,8 +486,9 @@ span.in-view {
   border-radius: 30px;
   overflow: hidden;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  width: 424px;
+  bottom: -67px;
+  right: -131px;
 }
 
 .why-section h2 {
