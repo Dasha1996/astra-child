@@ -459,6 +459,9 @@ span.in-view {
   background-size: 690px;
   /* background-size: 50%; */
 }
+.why-section .half-column {
+  width: 50%;
+}
 .why-section .list-items-container {
   margin-top: 35px;
 }
@@ -467,7 +470,7 @@ span.in-view {
   min-height: 98px !important;
   gap: 5px;
   padding: 20px 15px;
-  width: 70%;
+  width: 50%;
   /* margin: auto; */
   background-color: #fff;
   border: 1px solid black;
@@ -488,7 +491,7 @@ span.in-view {
   position: absolute;
   width: 424px;
   bottom: -67px;
-  right: -131px;
+  right: 0;
 }
 
 .why-section h2 {
