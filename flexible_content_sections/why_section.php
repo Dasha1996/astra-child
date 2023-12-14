@@ -35,7 +35,7 @@ $image = get_sub_field('image');
 ?>
 
 <div class="gif-container">
-    <iframe src="https://giphy.com/embed/oYtVHSxngR3lC"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <iframe src="https://giphy.com/embed/oYtVHSxngR3lC" width="480" height="347" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
 </div>
