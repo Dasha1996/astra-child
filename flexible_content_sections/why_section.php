@@ -34,8 +34,9 @@ $image = get_sub_field('image');
     }
 ?>
 
-</div>
 <div class="gif-container">
-<div style="width:100%;height:0;padding-bottom:72%;position:relative;"><iframe src="https://giphy.com/embed/oYtVHSxngR3lC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mfw-everything-reddit-oYtVHSxngR3lC">via GIPHY</a></p>
+    <iframe src="https://giphy.com/embed/oYtVHSxngR3lC" width="480" height="347" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</div>
+
 </div>
 </div>

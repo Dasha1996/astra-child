@@ -168,7 +168,17 @@
 }
 .why-section .container {
     position: relative;
+    .gif-container {
+        border: 3px solid black;
+        border-radius: 30px;
+        width: 30%;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0px;
+        right: 50px;
+    }
 }
+
 
 .why-section h2 {
     text-align: left;
