@@ -35,4 +35,7 @@ $image = get_sub_field('image');
 ?>
 
 </div>
+<div class="gif-container">
+    <iframe src="https://giphy.com/embed/acj7QJGgBBeUg" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-acj7QJGgBBeUg">via GIPHY</a></p>
+</div>
 </div>
