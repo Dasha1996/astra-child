@@ -464,13 +464,13 @@ span.in-view {
 }
 .why-section .list-items-container {
   margin-top: 35px;
+  width: 50%;
 }
 .why-section .list-item {
   display: flex;
   min-height: 98px !important;
   gap: 5px;
   padding: 20px 15px;
-  width: 50%;
   /* margin: auto; */
   background-color: #fff;
   border: 1px solid black;
