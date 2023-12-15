@@ -6,7 +6,7 @@ $image = get_sub_field('image');
 
 ?><div class="why-section">
     <div class="container flex">
-        <div class="half-column">
+        <div class="column">
         <?php echo $title_intro;?>
         <?
     if(have_rows('list_items')) {
@@ -33,7 +33,7 @@ $image = get_sub_field('image');
     <img class="pink-rotate" src="/wp-content/uploads/2023/11/pink_circle-1.png" alt=""/>
 </div>
 
-<div class="half-column">
+<div class="column">
     <div class="gif-container">
     <div style="width:100%;height:0;padding-bottom:72%;position:relative;"><iframe src="https://giphy.com/embed/oYtVHSxngR3lC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
     </div>
