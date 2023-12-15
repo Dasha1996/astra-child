@@ -71,6 +71,14 @@ span.center {
   margin: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+iframe.giphy-embed {
+  pointer-events: none;
+}
+
 .half-column {
   width: 76%;
 }
@@ -482,6 +490,9 @@ span.in-view {
 
 .why-section .container {
   position: relative;
+}
+.why-section .container .column:first-of-type {
+  width: 70%;
 }
 .why-section .container .gif-container {
   border: 3px solid black;

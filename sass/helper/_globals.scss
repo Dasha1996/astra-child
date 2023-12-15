@@ -71,6 +71,14 @@ span.center {
     margin: auto;
 }
 
+.flex {
+    display: flex;
+}
+
+iframe.giphy-embed {
+    pointer-events: none;
+}
+
 .half-column {
     width: 76%;
 }

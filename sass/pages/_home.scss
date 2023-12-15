@@ -170,6 +170,9 @@
 }
 .why-section .container {
     position: relative;
+    .column:first-of-type {
+        width: 70%;
+    }
     .gif-container {
         border: 3px solid black;
         border-radius: 30px;
