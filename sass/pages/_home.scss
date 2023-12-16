@@ -211,6 +211,10 @@ img.pink-rotate {
     padding: 50px 0;
     /* background-color: #E7D6FF; */
     background-image: url(/wp-content/uploads/2023/12/grain_plain.png);
+    .container {
+        position: relative;
+        z-index: 99;
+    }
     p {
         text-align: center;
         width: 700px;
@@ -227,7 +231,9 @@ img.pink-rotate {
         animation: moving-clouds 25s linear infinite;
     }
     .button {
+        display: block;
         margin: auto;
+        margin-top: 20px;
     }
 }
 
