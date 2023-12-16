@@ -541,7 +541,6 @@ img.pink-rotate {
   position: absolute;
   width: 560px;
   top: 0;
-  right: 0;
 }
 .get-in-touch.section img.cloud.in-view {
   animation: moving-clouds 25s linear infinite;
@@ -576,7 +575,7 @@ img.pink-rotate {
 }
 @keyframes moving-clouds {
   0% {
-    right: 0%;
+    right: 10%;
   }
   100% {
     right: -100%;
