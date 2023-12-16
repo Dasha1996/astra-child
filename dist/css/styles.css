@@ -525,6 +525,15 @@ img.pink-rotate {
   animation: spin 50s linear infinite;
 }
 
+.get-in-touch.section {
+  padding: 50px 0;
+  /* background-color: #E7D6FF; */
+  background-image: url(/wp-content/uploads/2023/12/grain_plain.png);
+}
+.get-in-touch.section p {
+  text-align: center;
+}
+
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(360deg);
