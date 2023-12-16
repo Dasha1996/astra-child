@@ -133,6 +133,7 @@ a.button {
   color: black !important;
   display: inline-block;
   width: 50%;
+  max-width: 300px;
   text-align: center;
   border-radius: 0;
   font-size: 20px;
