@@ -576,10 +576,10 @@ img.pink-rotate {
 }
 @keyframes moving-clouds {
   0% {
-    margin-left: 0%;
+    right: 0%;
   }
   100% {
-    margin-left: -100%;
+    right: -100%;
   }
 }
 h1 {
