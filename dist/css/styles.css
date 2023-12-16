@@ -577,8 +577,11 @@ img.pink-rotate {
   0% {
     margin-left: 0%;
   }
+  50% {
+    margin-left: 100%;
+  }
   100% {
-    margin-left: -100%;
+    margin-left: 0;
   }
 }
 h1 {
