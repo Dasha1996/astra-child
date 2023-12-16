@@ -223,9 +223,11 @@ img.pink-rotate {
         top: 0;
         right: 0;
     }
-
     img.cloud.in-view {
         animation: moving-clouds 25s linear infinite;
+    }
+    .button {
+        margin: auto;
     }
 }
 

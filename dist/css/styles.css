@@ -548,6 +548,9 @@ img.pink-rotate {
 .get-in-touch.section img.cloud.in-view {
   animation: moving-clouds 25s linear infinite;
 }
+.get-in-touch.section .button {
+  margin: auto;
+}
 
 @-moz-keyframes spin {
   100% {
