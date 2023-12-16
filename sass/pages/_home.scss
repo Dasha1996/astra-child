@@ -212,6 +212,9 @@ img.pink-rotate {
     background-image: url(/wp-content/uploads/2023/12/grain_plain.png);
     p {
         text-align: center;
+        width: 700px;
+        max-width: 100%;
+        margin: auto;
     }
 }
 
