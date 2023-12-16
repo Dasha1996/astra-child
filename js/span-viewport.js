@@ -17,6 +17,14 @@
                 }
             })
 
+            $('img.cloud').each(function() {
+                if (isElementInViewport(this)) {
+                    $(this).addClass('in-view');
+                } else {
+                    $(this).removeClass('in-view');
+                }
+            })
+
         });
     
         // Function to check if the element is in the viewport

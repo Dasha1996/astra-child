@@ -207,6 +207,7 @@ img.pink-rotate {
 }
 
 .get-in-touch.section {
+    position: relative;
     padding: 50px 0;
     /* background-color: #E7D6FF; */
     background-image: url(/wp-content/uploads/2023/12/grain_plain.png);
@@ -215,6 +216,15 @@ img.pink-rotate {
         width: 700px;
         max-width: 100%;
         margin: auto;
+    }
+    img.cloud {
+        position: absolute;
+        width: 560px;
+        top: 0;
+    }
+
+    img.cloud.in-view {
+        animation: moving-clouds 25s linear infinite;
     }
 }
 
@@ -240,5 +250,14 @@ img.pink-rotate {
     }
     100% {
         transform: rotate(45deg);
+    }
+}
+
+@keyframes moving-clouds {
+    0% {
+        margin-left: 0%;
+    }
+    100% {
+        margin-left: -100%;
     }
 }
