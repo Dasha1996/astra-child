@@ -556,6 +556,7 @@ img.pink-rotate {
   display: block;
   margin: auto;
   margin-top: 38px;
+  background-color: #D3FFBA;
 }
 
 @-moz-keyframes spin {
