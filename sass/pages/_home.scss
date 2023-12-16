@@ -255,13 +255,10 @@ img.pink-rotate {
 
 @keyframes moving-clouds {
     0% {
-        margin-left: 0%;
-    }
-    50% {
-        margin-left: -100%;
+        transform: translateX(0);
     }
     100% {
-        margin-left: 0%;
+        transform: translateX(-300%);
     }
 
 }
