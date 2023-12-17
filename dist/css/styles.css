@@ -149,6 +149,7 @@ a.button:active {
   box-shadow: none;
   color: black !important;
   transform: translateY(4px);
+  border: 2px solid black !important;
 }
 
 /*list icon style*/
