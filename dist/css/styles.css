@@ -557,6 +557,7 @@ img.pink-rotate {
 .get-in-touch.section img.cloud.cloud-right {
   right: 0;
   animation: floatCloudRight 35s linear infinite;
+  animation-delay: 0.5s;
 }
 .get-in-touch.section img.cloud.cloud-bottom {
   bottom: 20px;
