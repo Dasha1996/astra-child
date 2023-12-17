@@ -170,10 +170,10 @@ span.in-view {
     display: flex;
         flex-direction: column;
         justify-content: center;
-    gap: $banner-distance;
 }
 .flex  {
     display: flex;
+        align-items: center;
     img {
         height: 103%;
         object-fit: cover;

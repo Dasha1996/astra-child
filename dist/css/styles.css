@@ -170,11 +170,11 @@ a.button:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
 }
 
 .flex {
   display: flex;
+  align-items: center;
 }
 .flex img {
   height: 103%;
