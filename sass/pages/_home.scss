@@ -286,10 +286,10 @@ img.pink-rotate {
 
 @keyframes floatCloudLeft {
     0% {
-        left: -1000px;
+        left: 1000px;
     }
     100% {
-        left: 100%;
+        left: -100%;
     }
 
 }
