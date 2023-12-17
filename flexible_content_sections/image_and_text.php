@@ -9,10 +9,10 @@ $button_url = get_sub_field('button_url');
 <div class="about section">
     <div class="container-full">
         <div class="flex">
-            <div class="image-container">
+            <div class="image-container col">
                 <img src="<?php echo $image_url;?>" alt = "<?php echo $image_alt;?>">
             </div>
-            <div class="text-container">
+            <div class="text-container col">
                 <div class="text-container-padding">
                     <?php echo $text;?>
                 </div>
