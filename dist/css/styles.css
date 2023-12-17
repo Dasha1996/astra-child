@@ -352,14 +352,23 @@ img {
   flex-direction: column;
   align-items: center;
 }
-.banner .text-container-padding h1 {
+.banner .text-container {
+  /*width:450px;*/
+  padding: 40px 150px 40px 150px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.banner .text-container h1 {
   font-size: 45px;
   margin-bottom: 0;
 }
-.banner .text-container-padding > span {
+.banner .text-container > span {
   font-size: 21px;
 }
-.banner .text-container-padding p {
+.banner .text-container p {
   margin-bottom: 0;
   font-size: 26px;
   line-height: 1.6;
