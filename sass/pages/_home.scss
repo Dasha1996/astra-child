@@ -224,6 +224,7 @@ img.pink-rotate {
     img.cloud {
         position: absolute;
         width: 560px;
+        animation: moving-clouds 25s linear infinite;
     }
 
     img.cloud.cloud-top {
@@ -237,9 +238,6 @@ img.pink-rotate {
     }
     img.cloud.cloud-bottom{
         bottom: 0;
-    }
-    img.cloud.in-view {
-        animation: moving-clouds 25s linear infinite;
     }
     .button {
         display: block;
