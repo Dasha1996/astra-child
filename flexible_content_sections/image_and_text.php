@@ -3,7 +3,7 @@ $image_array =  get_sub_field('image');
 $image_url = $image_array['url'];
 $image_alt = $image_array['alt'];
 $text = get_sub_field('text');
-$button_text = get_sub_filed('button_text');
+$button_text = get_sub_field('button_text');
 $button_url = get_sub_field('button_url');
 ?>
 <div class="about section">
