@@ -354,12 +354,6 @@ a.button:active {
 }
 .banner .text-container {
   /*width:450px;*/
-  padding: 40px 150px 40px 150px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
 }
 .banner .text-container h1 {
   font-size: 45px;

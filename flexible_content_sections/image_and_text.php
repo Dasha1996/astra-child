@@ -13,7 +13,7 @@ $button_url = get_sub_field('button_url');
                 <img src="<?php echo $image_url;?>" alt = "<?php echo $image_alt;?>">
             </div>
             <div class="text-container">
-                <div class="text">
+                <div class="text-container-padding">
                     <?php echo $text;?>
                 </div>
                 <div class="button-container">
