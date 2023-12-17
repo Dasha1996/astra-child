@@ -594,7 +594,7 @@ img.pink-rotate {
     transform: rotate(45deg);
   }
 }
-@keyframes moving-clouds {
+@keyframes floatCloud {
   0% {
     right: -1000px;
   }
