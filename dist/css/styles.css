@@ -552,11 +552,11 @@ img.pink-rotate {
 }
 .get-in-touch.section img.cloud.cloud-left {
   left: 60px;
-  animation: floatCloudLeft 25s linear infinite;
+  animation: floatCloudLeft 45s linear infinite;
 }
 .get-in-touch.section img.cloud.cloud-right {
   right: 0;
-  animation: floatCloudRight 35s linear infinite;
+  animation: floatCloudRight 45s linear infinite;
   animation-delay: 0.5s;
 }
 .get-in-touch.section img.cloud.cloud-bottom {
