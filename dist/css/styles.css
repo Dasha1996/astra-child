@@ -162,6 +162,23 @@ a.button:active {
   width: 26px;
 }
 
+/*Text with full width image*/
+.text-container-padding {
+  /*width:450px;*/
+  padding: 40px 150px 40px 150px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  height: 103%;
+  object-fit: cover;
+  object-position: 0 2px;
+}
+
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
 /*when slide selected make the container wider
 .slide .container.content-container.position-relative {
@@ -335,23 +352,14 @@ a.button:active {
   flex-direction: column;
   align-items: center;
 }
-.banner .text-container {
-  /*width:450px;*/
-  padding: 40px 150px 40px 150px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-}
-.banner .text-container h1 {
+.banner .text-container-padding h1 {
   font-size: 45px;
   margin-bottom: 0;
 }
-.banner .text-container > span {
+.banner .text-container-padding > span {
   font-size: 21px;
 }
-.banner .text-container p {
+.banner .text-container-padding p {
   margin-bottom: 0;
   font-size: 26px;
   line-height: 1.6;

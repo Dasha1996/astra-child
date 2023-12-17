@@ -7,7 +7,7 @@ $button_text = get_sub_field('button_text');
 $button_link = get_sub_field('button_link');
 ?><div class="banner flexbox">
     <div class="col text-col">
-        <div class="text-container">
+        <div class="text-container-padding">
             <?if(!empty($subtitle)) {
                 ?>
                 <span><?php echo $subtitle;?></span>
