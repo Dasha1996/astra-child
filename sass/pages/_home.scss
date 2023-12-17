@@ -224,7 +224,15 @@ img.pink-rotate {
     img.cloud {
         position: absolute;
         width: 560px;
+    }
+
+    img.cloud.cloud-top {
         top: 0;
+    }
+    img.cloud.cloud-left {
+        left: 0;
+    }
+    img.cloud.cloud-top {
         right: 0;
     }
     img.cloud.in-view {
