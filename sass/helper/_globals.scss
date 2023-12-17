@@ -172,7 +172,7 @@ span.in-view {
         justify-content: center;
     gap: $banner-distance;
 }
-img {
+.flex img {
     height: 103%;
     object-fit: cover;
     object-position: 0 2px;

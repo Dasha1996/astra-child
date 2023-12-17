@@ -173,7 +173,7 @@ a.button:active {
   gap: 20px;
 }
 
-img {
+.flex img {
   height: 103%;
   object-fit: cover;
   object-position: 0 2px;
