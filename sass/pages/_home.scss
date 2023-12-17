@@ -230,7 +230,7 @@ img.pink-rotate {
         top: 0;
     }
     img.cloud.cloud-left {
-        left: 0;
+        left: 60px;
        /* animation: floatCloudLeft 25s linear infinite;*/
     }
     img.cloud.cloud-right {
@@ -238,7 +238,14 @@ img.pink-rotate {
         /*animation: floatCloudRight 35s linear infinite;*/
     }
     img.cloud.cloud-bottom{
-        bottom: 0;
+        bottom: 20px;
+    }
+
+    img.cloud.cloud-right.cloud-top {
+        width: 340px;
+    }
+    img.cloud.cloud-left.cloud-bottom {
+        width: 350px;
     }
     .button {
         display: block;
