@@ -7,7 +7,7 @@ $button_text = get_sub_field('button_text');
 $button_url = get_sub_field('button_url');
 ?>
 <div class="about section">
-    <div class="container">
+    <div class="container-full">
         <div class="flex">
             <div class="image-container">
                 <img src="<?php echo $image_url;?>" alt = "<?php echo $image_alt;?>">
