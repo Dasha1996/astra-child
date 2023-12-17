@@ -232,8 +232,11 @@ img.pink-rotate {
     img.cloud.cloud-left {
         left: 0;
     }
-    img.cloud.cloud-top {
+    img.cloud.cloud-right {
         right: 0;
+    }
+    img.cloud.cloud-bottom{
+        bottom: 0;
     }
     img.cloud.in-view {
         animation: moving-clouds 25s linear infinite;
