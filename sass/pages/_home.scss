@@ -282,10 +282,10 @@ img.pink-rotate {
 
 @keyframes floatCloudRight {
     0% {
-        right: -1000px;
+        right: 1000px;
     }
     100% {
-        right: 100%;
+        right: -100%;
     }
 
 }
@@ -293,10 +293,10 @@ img.pink-rotate {
 
 @keyframes floatCloudLeft {
     0% {
-        left: 1000px;
+        left: -1000px;
     }
     100% {
-        left: -100%;
+        left: 100%;
     }
 
 }
