@@ -173,10 +173,16 @@ a.button:active {
   gap: 20px;
 }
 
+.flex {
+  display: flex;
+}
 .flex img {
   height: 103%;
   object-fit: cover;
   object-position: 0 2px;
+}
+.flex .col {
+  width: 50%;
 }
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
