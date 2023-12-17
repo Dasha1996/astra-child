@@ -184,6 +184,9 @@ a.button:active {
 .flex .col {
   width: 50%;
 }
+.flex h1, .flex h2 {
+  text-align: center;
+}
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
 /*when slide selected make the container wider
