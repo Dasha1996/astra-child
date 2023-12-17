@@ -185,7 +185,7 @@ a.button:active {
   width: 50%;
 }
 .flex h1, .flex h2 {
-  text-align: center;
+  text-align: left;
 }
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
