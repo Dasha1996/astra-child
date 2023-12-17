@@ -176,7 +176,7 @@ a.button:active {
   display: flex;
   align-items: center;
 }
-.flex img {
+.flex img.full {
   height: 103%;
   object-fit: cover;
   object-position: 0 2px;

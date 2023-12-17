@@ -5,8 +5,8 @@ $subtitle = get_sub_field('subtitle');
 $banner_text = get_sub_field('banner_text');
 $button_text = get_sub_field('button_text');
 $button_link = get_sub_field('button_link');
-?><div class="banner flexbox">
-    <div class="col text-col">
+?><div class="banner flexbox flex">
+    <div class="col text-col text-container">
         <div class="text-container-padding">
             <?if(!empty($subtitle)) {
                 ?>
@@ -33,10 +33,10 @@ $button_link = get_sub_field('button_link');
             }?>
     </div>
     </div>
-    <div class="col">
+    <div class="image-container col">
         <?if(!empty($image)) {
             ?>
-            <img  src="<?php echo $image;?>" alt =""/>
+            <img class="full" src="<?php echo $image;?>" alt =""/>
             <?
         }?>
     </div>
