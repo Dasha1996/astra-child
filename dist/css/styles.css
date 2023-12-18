@@ -396,6 +396,9 @@ a.button:active {
   background-size: cover;
   background-attachment: fixed;
 }
+.services-section .container-custom {
+  width: 100%;
+}
 .services-section .heading-arrow {
   position: relative;
   width: fit-content;
