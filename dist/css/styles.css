@@ -514,13 +514,13 @@ a.button:active {
   margin-bottom: 0 !important;
 }
 
-.why-section .container {
+.why-section .container-custom {
   position: relative;
 }
-.why-section .container .column:first-of-type {
+.why-section .container-custom .column:first-of-type {
   width: 70%;
 }
-.why-section .container .gif-container {
+.why-section .container-custom .gif-container {
   border: 3px solid black;
   border-radius: 30px;
   overflow: hidden;
@@ -558,7 +558,7 @@ img.pink-rotate {
   /* background-color: #E7D6FF; */
   background-image: url(/wp-content/uploads/2023/12/grain_plain.png);
 }
-.get-in-touch.section .container {
+.get-in-touch.section .container-custom {
   position: relative;
   z-index: 99;
 }

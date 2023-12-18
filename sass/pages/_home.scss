@@ -165,7 +165,7 @@
         }
     }
 }
-.why-section .container {
+.why-section .container-custom {
     position: relative;
     .column:first-of-type {
         width: 70%;
@@ -209,7 +209,7 @@ img.pink-rotate {
     overflow:hidden;
     /* background-color: #E7D6FF; */
     background-image: url(/wp-content/uploads/2023/12/grain_plain.png);
-    .container {
+    .container-custom {
         position: relative;
         z-index: 99;
     }
