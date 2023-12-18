@@ -5,7 +5,7 @@ $button_link = get_sub_field('button_link');
 $image = get_sub_field('image');
 
 ?><div class="why-section">
-    <div class="container flex">
+    <div class="container-custom flex">
         <div class="column">
         <?php echo $title_intro;?>
         <?

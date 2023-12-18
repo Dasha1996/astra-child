@@ -1,5 +1,5 @@
 <?php
-?><div class="container services-section"><?php
+?><div class="services-section"><div class="container-custom"><?php
 $subtitle = get_sub_field('subtitle');
 $section_heading_intro = get_sub_field('section_heading_and_text');
 ?><div class="heading-arrow">  
@@ -41,7 +41,7 @@ if(have_rows('services_cards')) {
 }
 ?>
 <img class="cells" src="/wp-content/uploads/2023/11/cells.png" alt=""/>
-</div><?
+</div></div><?
 //if have rows
 //while have ros
 //the row
