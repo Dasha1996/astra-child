@@ -566,7 +566,7 @@ img.pink-rotate {
       //transition: all 7s ease-in-out;
   }*/
 }
-.portfolio-section .image-wrap img {
+.portfolio-section .image-wrap .portfolio-image {
   width: 100%;
   height: 100%;
   object-fit: cover;

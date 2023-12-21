@@ -198,7 +198,7 @@ img.pink-rotate {
         overflow: hidden;
         margin: 50px auto;
         border: $border-bottom;
-        img {
+        .portfolio-image {
             width: 100%;
             height: 100%;
             object-fit: cover;

@@ -2,7 +2,7 @@
     $(document).ready(function() {
         console.log("loaded js new");
         // jQuery to calculate the transition duration based on the tallest image
-        var images = $('.portfolio-section .image-wrap img');
+        var images = $('.portfolio-section .image-wrap .portfolio-image');
         var image_container = $('.portfolio-section .image-wrap');
         const pxPerSec = 150;
 
@@ -33,14 +33,14 @@
         })
     
         image_container.on('focusin', function() {
-            $(this).find('img').css({
+            $(this).find('portfolio-image').css({
                 'object-position': 'bottom center'
             });
         });
 
         image_container.on('focusout', function() {
             console.log('focus out');
-            $(this).find('img').css({
+            $(this).find('portfolio-image').css({
                 'object-position': 'top center'
             });
         });
