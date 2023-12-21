@@ -9,6 +9,7 @@
         //function to set duration
         const setStyle = (el) => {
             const height = el.height();
+            console.log(height);
             // 300 is the height of the wrapper element
             const distance = height - 300;
             const ms = (distance / pxPerSec) * 1000;
