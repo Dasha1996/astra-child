@@ -1,4 +1,3 @@
-console.log("loaded js");
 (function( $ ) { 
     $(document).ready(function() {
         console.log("loaded js");
@@ -32,4 +31,4 @@ console.log("loaded js");
     
     });
 
-})
+}) ( jQuery );
