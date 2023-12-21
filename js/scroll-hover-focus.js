@@ -16,7 +16,7 @@
                 // 300 is the height of the wrapper element
                 const distance = height - 300;
                 const ms = (distance / pxPerSec) * 1000;
-                el.css('transition', `all ${ms}ms ease-in-out`);
+                el.css('transition', `all ${ms}ms ease`);
             };
         
             imageObj.src = el.attr('src');
