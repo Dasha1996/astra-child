@@ -8,7 +8,7 @@
 
         //function to set duration
         const setStyle = (el) => {
-            const height = el.height();
+            const height = el.naturalHeight;
             console.log(height);
             // 300 is the height of the wrapper element
             const distance = height - 300;
@@ -34,7 +34,7 @@
         console.log(transitionDuration);*/
     
         // Set the custom property to apply the transition duration
-        $('.image-wrap img').css('transition', 'all ' + transitionDuration + 's ease-in-out');
+        //$('.image-wrap img').css('transition', 'all ' + transitionDuration + 's ease-in-out');
     
         image_container.on('focus', function() {
             $(this).find('img').css({
