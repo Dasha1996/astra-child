@@ -19,7 +19,7 @@
         console.log(transitionDuration);
     
         // Set the custom property to apply the transition duration
-        $('.image-wrap img').css('transition', 'all' + transitionDuration + 's ease-in-out');
+        $('.image-wrap img').css('transition', 'all ' + transitionDuration + 's ease-in-out');
     
         image_container.on('focus', function() {
             $(this).find('img').css({
