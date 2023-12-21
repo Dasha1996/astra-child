@@ -13,11 +13,6 @@ if(have_rows('image_portfolio')) {
         $image_arr = get_sub_field('website_image');
         ?>
             <div class="image-wrap portfolio-container" tabindex = "0">
-                <div class="tab">
-                    <img class="cross" src="/wp-content/uploads/2023/11/thin_cross_black.png" alt="">
-                    <img src="/wp-content/uploads/2023/11/tabs_black.png" alt=""> 
-                    <div class="line"></div>
-                </div>
                 <img class="portfolio-image" src="<?php echo $image_arr['url'];?>" alt ="<?php echo $image_arr['alt'];?>">
             </div>
         <?php

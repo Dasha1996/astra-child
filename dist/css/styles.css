@@ -521,15 +521,6 @@ a.button:active {
 .why-section .container-custom .column:first-of-type {
   width: 70%;
 }
-.why-section .container-custom .gif-container {
-  border: 3px solid black;
-  border-radius: 30px;
-  overflow: hidden;
-  position: absolute;
-  width: 424px;
-  bottom: -67px;
-  right: 0;
-}
 
 .why-section h2 {
   text-align: left;
@@ -553,6 +544,10 @@ img.pink-rotate {
 }
 
 /*--------- PORTFOLIO ------*/
+.portfolio-section {
+  background-image: linear-gradient(90deg, hsl(300, 40%, 92%) 0%, 10%, hsl(259.02, 100%, 91.96%));
+  padding: 60px 0;
+}
 .portfolio-section .container-custom {
   display: flex;
 }
