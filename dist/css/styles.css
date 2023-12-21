@@ -547,6 +547,14 @@ img.pink-rotate {
 .portfolio-section {
   background-image: linear-gradient(90deg, hsl(300, 40%, 92%) 0%, 10%, hsl(259.02, 100%, 91.96%));
   padding: 60px 0;
+  position: relative;
+}
+.portfolio-section img {
+  position: absolute;
+  top: -298px;
+  z-index: 3;
+  width: 600px;
+  right: -167px;
 }
 .portfolio-section .container-custom {
   display: flex;
@@ -559,6 +567,8 @@ img.pink-rotate {
   margin: 50px auto;
   border-radius: 6px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+  z-index: 9;
   /*.portfolio-image:last-of-type {
       //transition: all 7s ease-in-out;
   }*/
