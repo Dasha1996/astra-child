@@ -188,6 +188,23 @@ span.in-view {
     }
 }
 
+.tab {
+    @include flexbox;
+    justify-content: flex-start;
+    width: 100%;
+    background: $linear-gradient;
+    background: linear-gradient(90deg, hsl(302.14deg 100% 94.51%) 0%, 20%, hsl(267.27deg 95.65% 90.98%));
+    padding: 7px 20px;
+    border-bottom: $border-bottom;
+    gap: 15px;
+    img {
+        width: 30px;
+    }
+    .cross {
+        width: 25px;
+    }
+}
+
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
 /*when slide selected make the container wider

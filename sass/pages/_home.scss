@@ -96,22 +96,6 @@
             width: 33.33%;
             border: $border-bottom;
             background-color: $backgroundColor;
-            .tab {
-                @include flexbox;
-                justify-content: flex-start;
-                width: 100%;
-                background: $linear-gradient;
-                background: linear-gradient(90deg, hsl(302.14deg 100% 94.51%) 0%, 20%, hsl(267.27deg 95.65% 90.98%));
-                padding: 7px 20px;
-                border-bottom: $border-bottom;
-                gap: 15px;
-                img {
-                    width: 30px;
-                }
-                .cross {
-                    width: 25px;
-                }
-            }
         }
         .card-items {
             @include flex-column;
@@ -213,6 +197,7 @@ img.pink-rotate {
         height: 400px;
         overflow: hidden;
         margin: 50px auto;
+        border: $border-bottom;
         img {
             width: 100%;
             height: 100%;
