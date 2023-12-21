@@ -205,7 +205,9 @@ img.pink-rotate {
 
 /*--------- PORTFOLIO ------*/
 .portfolio-section {
-    display: flex;
+    .container-custom {
+        display: flex;
+    }
     .image-wrap {
         width: 300px;
         height: 400px;

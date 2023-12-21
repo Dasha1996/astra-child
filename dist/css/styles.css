@@ -552,7 +552,7 @@ img.pink-rotate {
 }
 
 /*--------- PORTFOLIO ------*/
-.portfolio-section {
+.portfolio-section .container-custom {
   display: flex;
 }
 .portfolio-section .image-wrap {
