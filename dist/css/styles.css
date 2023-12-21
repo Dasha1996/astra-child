@@ -568,6 +568,9 @@ img.pink-rotate {
   object-position: top center;
   transition: all 3s ease-in-out;
 }
+.portfolio-section .image-wrap img:last-of-type {
+  transition: all 5s ease-in-out;
+}
 .portfolio-section .image-wrap:hover img {
   object-position: bottom center;
 }
