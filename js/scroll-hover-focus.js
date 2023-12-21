@@ -8,6 +8,7 @@
 
         //function to set duration
         const setStyle = (el) => {
+            const imageObj = new Image(); 
             imageObj.onload = function() {
                 const height = this.naturalHeight;
                 console.log(height);
