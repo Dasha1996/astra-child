@@ -55,8 +55,9 @@
         });
 
         image_container.on('blur', function() {
-            const img = $(this).find('img')
-            img.style.objectPosition = 'top center';
+            $(this).find('img').css({
+                'object-position': 'top center'
+            });
         });
     
     
