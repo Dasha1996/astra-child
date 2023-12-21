@@ -8,14 +8,17 @@
 
         //function to set duration
         const setStyle = (el) => {
-            const imageObj = new Image(); // Create a new Image object
-            imageObj.src = el.src; // Set the source to trigger the naturalHeight retrieval
-            const height = imageObj.naturalHeight
-            console.log(height);
-            // 300 is the height of the wrapper element
-            const distance = height - 300;
-            const ms = (distance / pxPerSec) * 1000;
-            el.css('transition', `all ${ms}ms ease-in-out`);
+            imageObj.onload = function() {
+                const height = this.naturalHeight;
+                console.log(height);
+        
+                // 300 is the height of the wrapper element
+                const distance = height - 300;
+                const ms = (distance / pxPerSec) * 1000;
+                el.css('transition', `all ${ms}ms ease-in-out`);
+            };
+        
+            imageObj.src = el.attr('src');
         };
 
         images.each(function() {
