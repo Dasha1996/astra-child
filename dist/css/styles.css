@@ -549,7 +549,7 @@ img.pink-rotate {
   padding: 60px 0;
   position: relative;
 }
-.portfolio-section img {
+.portfolio-section > img {
   position: absolute;
   top: -298px;
   z-index: 3;

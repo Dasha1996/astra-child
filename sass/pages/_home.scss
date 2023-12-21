@@ -184,7 +184,7 @@ img.pink-rotate {
     background-image: linear-gradient(90deg, hsl(300 40% 92% / 1) 0%, 10%, hsl(259.02deg 100% 91.96%));
     padding: 60px 0;
     position: relative;
-    img {
+    & > img {
         position: absolute;
         top: -298px;
         z-index: 3;
