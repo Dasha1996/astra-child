@@ -16,6 +16,7 @@
         });
     
         var transitionDuration = tallestImageHeight / 100; // Adjust as needed
+        console.log(transitionDuration);
     
         // Set the custom property to apply the transition duration
         $('.image-wrap img').css('transition', 'all' + transitionDuration + 's ease-in-out');
