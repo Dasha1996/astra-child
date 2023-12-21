@@ -8,7 +8,9 @@
 
         //function to set duration
         const setStyle = (el) => {
-            const height = el.naturalHeight;
+            const imageObj = new Image(); // Create a new Image object
+            imageObj.src = el.src; // Set the source to trigger the naturalHeight retrieval
+            const height = imageObj.naturalHeight
             console.log(height);
             // 300 is the height of the wrapper element
             const distance = height - 300;
