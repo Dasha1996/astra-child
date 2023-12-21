@@ -220,7 +220,7 @@ img.pink-rotate {
             object-position: top center;
             transition: all 3s ease-in-out;
         }
-        img:last-of-type {
+        .portfolio-image:last-of-type {
             transition: all 5s ease-in-out;
         }
         &:hover img {
