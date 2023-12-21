@@ -4,9 +4,23 @@
         // jQuery to calculate the transition duration based on the tallest image
         var images = $('.portfolio-section .image-wrap img');
         var image_container = $('.portfolio-section .image-wrap');
+        const pxPerSec = 150;
+
+        //function to set duration
+        const setStyle = (el) => {
+            const height = el.height();
+            // 300 is the height of the wrapper element
+            const distance = height - 300;
+            const ms = (distance / pxPerSec) * 1000;
+            el.css('transition', `transform ${ms}ms linear`);
+        };
+
+        images.each(function() {
+            setStyle($(this));
+        })
     
         //starting point for tallest image
-        var tallestImageHeight = 0;
+       /* var tallestImageHeight = 0;
     
         images.each(function() {
             var imageHeight = $(this).height();
@@ -16,7 +30,7 @@
         });
     
         var transitionDuration = tallestImageHeight / 100; // Adjust as needed
-        console.log(transitionDuration);
+        console.log(transitionDuration);*/
     
         // Set the custom property to apply the transition duration
         $('.image-wrap img').css('transition', 'all ' + transitionDuration + 's ease-in-out');
