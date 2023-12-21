@@ -1,6 +1,6 @@
 (function( $ ) { 
     $(document).ready(function() {
-        console.log("loaded js");
+        console.log("loaded js new");
         // jQuery to calculate the transition duration based on the tallest image
         var images = $('.portfolio-section .image-wrap img');
         var image_container = $('.portfolio-section .image-wrap');
@@ -12,7 +12,7 @@
             // 300 is the height of the wrapper element
             const distance = height - 300;
             const ms = (distance / pxPerSec) * 1000;
-            el.css('transition', `transform ${ms}ms linear`);
+            el.css('transition', `all ${ms}ms ease-in-out`);
         };
 
         images.each(function() {
