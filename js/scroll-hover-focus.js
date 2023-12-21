@@ -32,29 +32,14 @@
             setStyle($(this));
         })
     
-        //starting point for tallest image
-       /* var tallestImageHeight = 0;
-    
-        images.each(function() {
-            var imageHeight = $(this).height();
-            if (imageHeight > tallestImageHeight) {
-                tallestImageHeight = imageHeight;
-            }
-        });
-    
-        var transitionDuration = tallestImageHeight / 100; // Adjust as needed
-        console.log(transitionDuration);*/
-    
-        // Set the custom property to apply the transition duration
-        //$('.image-wrap img').css('transition', 'all ' + transitionDuration + 's ease-in-out');
-    
-        image_container.on('focus', function() {
+        image_container.on('focusin', function() {
             $(this).find('img').css({
                 'object-position': 'bottom center'
             });
         });
 
-        image_container.on('blur', function() {
+        image_container.on('focusout', function() {
+            console.log('focus out');
             $(this).find('img').css({
                 'object-position': 'top center'
             });
