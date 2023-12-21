@@ -1,6 +1,6 @@
 (function( $ ) { 
     $(document).ready(function() {
-        console.log("loaded");
+        console.log("loaded js");
         // jQuery to calculate the transition duration based on the tallest image
         var images = $('.portfolio-section .image-wrap img');
         var image_container = $('.portfolio-section .image-wrap');
