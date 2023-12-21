@@ -185,13 +185,14 @@ img.pink-rotate {
     padding: 60px 0;
     .container-custom {
         display: flex;
+        gap: 20px;
     }
     .image-wrap {
         width: 33.333%;
         height: 400px;
         overflow: hidden;
         margin: 50px auto;
-        border-radius: 20px;
+        border-radius: 6px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         .portfolio-image {
             width: 100%;
