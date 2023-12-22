@@ -194,15 +194,24 @@ img.pink-rotate {
         object-fit: contain;
         opacity: 0.6;
         display: none;
-    }*/
+    }
     & > img {
         position: absolute;
-        /* top: 168px; */
         z-index: 3;
         width: 351px;
         right: 79px;
         top: -90px;
         transform: rotate(-20deg);
+        object-fit: contain;
+    }*/
+   & > img {
+        position: absolute;
+        /* top: 168px; */
+        z-index: 3;
+        width: 320px;
+        right: 120px;
+        top: -164px;
+        transform: rotate(10deg);
         object-fit: contain;
     }
     .container-custom {
