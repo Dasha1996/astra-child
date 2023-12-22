@@ -185,17 +185,25 @@ img.pink-rotate {
     background-color: hsl(263.41deg 100% 91.96% / 33%);
     padding: 60px 0;
     position: relative;
-   & > img {
+   /*& > img {
         position: absolute;
-        /* top: 168px; */
         z-index: 3;
         width: 835px;
         right: -191px;
         bottom: -184px;
         object-fit: contain;
-        /* display: none; */
         opacity: 0.6;
         display: none;
+    }*/
+    & > img {
+        position: absolute;
+        /* top: 168px; */
+        z-index: 3;
+        width: 351px;
+        right: 79px;
+        top: -90px;
+        transform: rotate(-20deg);
+        object-fit: contain;
     }
     .container-custom {
         display: flex;

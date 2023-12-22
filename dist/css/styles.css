@@ -552,18 +552,26 @@ img.pink-rotate {
   background-color: hsla(263.41, 100%, 91.96%, 0.33);
   padding: 60px 0;
   position: relative;
+  /*& > img {
+       position: absolute;
+       z-index: 3;
+       width: 835px;
+       right: -191px;
+       bottom: -184px;
+       object-fit: contain;
+       opacity: 0.6;
+       display: none;
+   }*/
 }
 .portfolio-section > img {
   position: absolute;
   /* top: 168px; */
   z-index: 3;
-  width: 835px;
-  right: -191px;
-  bottom: -184px;
+  width: 351px;
+  right: 79px;
+  top: -90px;
+  transform: rotate(-20deg);
   object-fit: contain;
-  /* display: none; */
-  opacity: 0.6;
-  display: none;
 }
 .portfolio-section .container-custom {
   display: flex;
