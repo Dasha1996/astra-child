@@ -13,6 +13,10 @@ body {
   padding: 0;
 }
 
+main {
+  overflow: hidden;
+}
+
 /*reset all containers width*/
 .ast-container {
   width: 100% !important;
