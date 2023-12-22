@@ -184,12 +184,16 @@ img.pink-rotate {
     background-image: linear-gradient(90deg, hsl(300 40% 92% / 1) 0%, 10%, hsl(259.02deg 100% 91.96%));
     padding: 60px 0;
     position: relative;
-    & > img {
+   & > img {
         position: absolute;
-        top: -298px;
+        /* top: 168px; */
         z-index: 3;
-        width: 600px;
-        right: -167px;
+        width: 835px;
+        right: -191px;
+        bottom: -184px;
+        object-fit: contain;
+        /* display: none; */
+        opacity: 0.6;
     }
     .container-custom {
         display: flex;

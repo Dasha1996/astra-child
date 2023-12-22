@@ -5,7 +5,7 @@ $text = get_sub_field('text');
 
 if(have_rows('image_portfolio')) {
     ?><div class="portfolio-section">
-        <img src="/wp-content/uploads/2023/12/transparent_folders.png" alt="">
+        <img src="/wp-content/uploads/2023/12/Asset-6.webp" alt="">
         <?php echo $text;?>
         <div class="container-custom">
         <?php
