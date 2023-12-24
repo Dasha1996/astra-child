@@ -576,9 +576,9 @@ img.pink-rotate {
   position: absolute;
   /* top: 168px; */
   z-index: 3;
-  width: 320px;
-  right: 120px;
-  top: -164px;
+  width: 205px;
+  right: 119px;
+  top: -108px;
   transform: rotate(10deg);
   object-fit: contain;
 }
@@ -605,7 +605,10 @@ img.pink-rotate {
   object-fit: cover;
   object-position: top center;
 }
-.portfolio-section .image-wrap:hover img {
+.portfolio-section .image-wrap:hover, .portfolio-section .image-wrap:focus {
+  transform: scale(1.2);
+}
+.portfolio-section .image-wrap:hover img, .portfolio-section .image-wrap:focus img {
   object-position: bottom center;
 }
 
