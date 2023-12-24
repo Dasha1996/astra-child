@@ -204,13 +204,13 @@ img.pink-rotate {
         transform: rotate(-20deg);
         object-fit: contain;
     }*/
-   & > img {
+    &  > img {
         position: absolute;
         /* top: 168px; */
         z-index: 3;
-        width: 320px;
-        right: 120px;
-        top: -164px;
+        width: 205px;
+        right: 119px;
+        top: -108px;
         transform: rotate(10deg);
         object-fit: contain;
     }
@@ -237,7 +237,10 @@ img.pink-rotate {
         /*.portfolio-image:last-of-type {
             //transition: all 7s ease-in-out;
         }*/
-        &:hover img {
+        &:hover, &:focus {
+            transform: scale(1.2);
+        }
+        &:hover img, &:focus img {
             object-position: bottom center;
         }
     }
