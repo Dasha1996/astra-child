@@ -46,10 +46,10 @@ function astra_child_custom_content() {
 	); ?>
 	<div class="testimonials-section container-custom">
     <div id="testimonialscontrols" class="carousel slide my-4" data-ride="carousel" data-interval="8000" >
-		<h2 class="text-center">Happy Customers</h2>
-		<a class="carousel-control-prev" href="#testimonialscontrols" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-label="previous"></span>
-  </a>
+		<button class="carousel-control-prev" type="button" data-bs-target="#testimonialscontrols" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
   <a class="carousel-control-next" href="#testimonialscontrols" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-label="next"></span>
   </a>
