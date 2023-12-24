@@ -33,14 +33,14 @@
         })
     
         image_container.on('focusin', function() {
-            $(this).find('portfolio-image').css({
+            $(this).find('.portfolio-image').css({
                 'object-position': 'bottom center'
             });
         });
 
         image_container.on('focusout', function() {
             console.log('focus out');
-            $(this).find('portfolio-image').css({
+            $(this).find('.portfolio-image').css({
                 'object-position': 'top center'
             });
         });
