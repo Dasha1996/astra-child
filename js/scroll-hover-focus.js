@@ -4,7 +4,7 @@
         // jQuery to calculate the transition duration based on the tallest image
         var images = $('.portfolio-section .image-wrap .portfolio-image');
         var image_container = $('.portfolio-section .image-wrap');
-        const pxPerSec = 150;
+        const pxPerSec = 100;
 
         //function to set duration
         const setStyle = (el) => {
