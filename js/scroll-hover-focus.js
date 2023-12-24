@@ -18,7 +18,7 @@
         
                 // 300 is the height of the wrapper element
                 //how much the image needs to be scrolled
-                const distance = height - 300;
+                const distance = height - 400;
                 const ms = (distance / pxPerSec) * 1000;
                 el.css('transition', `all ${ms}ms linear`);
             };
