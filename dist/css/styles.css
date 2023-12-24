@@ -549,7 +549,7 @@ img.pink-rotate {
 
 /*--------- PORTFOLIO ------*/
 .portfolio-section {
-  background-color: hsla(263.41, 100%, 91.96%, 0.33);
+  background-color: 268.42deg 100% 92.55%/55%;
   padding: 60px 0;
   position: relative;
   /*& > img {

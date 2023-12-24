@@ -44,7 +44,7 @@ function astra_child_custom_content() {
 		'post_type' => 'testimonials',
 		'posts_per_page' => 3,
 	); ?>
-	<div class="testimonials-section container-custom">
+	<div class="testimonials-section">
 		<div class="container-custom">
 		<div id="testimonialscontrols" class="carousel slide my-4" data-ride="carousel" data-interval="8000" >
 		<div class="carousel-indicators">
