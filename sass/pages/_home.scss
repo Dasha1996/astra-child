@@ -238,10 +238,10 @@ img.pink-rotate {
         /*.portfolio-image:last-of-type {
             //transition: all 7s ease-in-out;
         }*/
-        &:hover, &:focus {
+        /*&:hover, &:focus {
             z-index:999;
             transform: scale(1.1);
-        }
+        }*/
         &:hover img, &:focus img {
             object-position: bottom center;
         }
