@@ -549,7 +549,7 @@ img.pink-rotate {
 
 /*--------- PORTFOLIO ------*/
 .portfolio-section {
-  background-color: hsla(268.42, 100%, 92.55%, 0.55);
+  background-image: linear-gradient(90deg, hsl(300, 40%, 92%) 0%, 10%, hsl(259.02, 100%, 91.96%));
   padding: 60px 0;
   position: relative;
   /*& > img {
