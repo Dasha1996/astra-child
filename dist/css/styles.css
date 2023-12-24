@@ -507,7 +507,7 @@ a.button:active {
 }
 .why-section .list-item {
   display: flex;
-  min-height: 98px !important;
+  min-height: fit-content !important;
   gap: 5px;
   padding: 20px 15px;
   /* margin: auto; */
