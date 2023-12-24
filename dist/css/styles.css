@@ -439,6 +439,7 @@ a.button:active {
   width: 80px;
   transform: rotate(45deg);
   transition: transform 0.3s ease;
+  display: none;
 }
 .services-section .heading-arrow img.arrow.in-view {
   animation: bounceRight 2s ease 3 forwards;
