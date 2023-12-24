@@ -46,10 +46,7 @@ function astra_child_custom_content() {
 	); ?>
 	<div class="testimonials-section container-custom">
 		<div class="container-custom">
-
-		</div>
-	</div>
-    <div id="testimonialscontrols" class="carousel slide my-4" data-ride="carousel" data-interval="8000" >
+		<div id="testimonialscontrols" class="carousel slide my-4" data-ride="carousel" data-interval="8000" >
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#testimonialscontrols" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 			<button type="button" data-bs-target="#testimonialscontrols" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -79,6 +76,9 @@ function astra_child_custom_content() {
 		</div>
 	</div>
 </div>
+		</div>
+	</div>
+   
 
 <?php }
 ?>
