@@ -38,7 +38,40 @@ function astra_child_custom_content() {
 		get_template_part( 'flexible_content_sections/'. get_row_layout() );
         ?><hr><?php
 	}
-}
+	/*Testimonials*/
+	$count = 0;
+		  $args = array(
+		'post_type' => 'testimonials',
+		'posts_per_page' => 3,
+	); ?>
+	<div class="testimonials-section container-custom">
+    <div id="testimonialscontrols" class="carousel slide my-4" data-ride="carousel" data-interval="8000" >
+		<h2 class="text-center">Happy Customers</h2>
+		<a class="carousel-control-prev" href="#testimonialscontrols" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-label="previous"></span>
+  </a>
+  <a class="carousel-control-next" href="#testimonialscontrols" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-label="next"></span>
+  </a>
+    <div class="carousel-inner">
+	<?php $blogpost = new WP_Query($args);
+	while($blogpost->have_posts()) {
+		$count++;
+	$blogpost->the_post();
+		?>
+    <div class="carousel-item <?php if($count == 1) { echo 'active'; } ?>">
+      <p><?php the_content(); ?></p>
+      <h4 class="w-50 mx-auto mt-5" style="color:#67498f;"><?php the_title();  ?></h4>
+    </div>
+		<?php
+		}
+		  ?> 
+</div>
+
+</div>
+	</div>
+
+<?php }
 ?>
 <div id="primary" <?php astra_primary_class(); ?>>
 
