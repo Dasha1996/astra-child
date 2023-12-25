@@ -220,6 +220,7 @@ a.button:active {
 
 div#testimonialscontrols {
   padding: 50px 0;
+  min-height: 450px;
 }
 div#testimonialscontrols .carousel-inner .carousel-item {
   text-align: center;
