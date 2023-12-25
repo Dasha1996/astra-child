@@ -221,7 +221,7 @@ a.button:active {
 .carousel-inner .carousel-indicators {
   bottom: 0;
 }
-.carousel-inner .carousel-indicators [data-bs-target] {
+.carousel-inner .carousel-indicators button {
   border: 1px solid #382e30 !important;
   background-color: white !important;
 }

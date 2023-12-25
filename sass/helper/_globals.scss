@@ -219,7 +219,7 @@ span.in-view {
     }
     .carousel-indicators {
         bottom: 0;
-        [data-bs-target] {
+        button {
             border: $border-bottom !important;
             background-color: white !important;
         }
