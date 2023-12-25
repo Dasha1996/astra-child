@@ -220,8 +220,8 @@ span.in-view {
     .carousel-indicators {
         bottom: 0;
         [data-bs-target] {
-            border: $border-bottom;
-            background-color: white;
+            border: $border-bottom !important;
+            background-color: white !important;
         }
     }
 }

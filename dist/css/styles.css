@@ -222,8 +222,8 @@ a.button:active {
   bottom: 0;
 }
 .carousel-inner .carousel-indicators [data-bs-target] {
-  border: 1px solid #382e30;
-  background-color: white;
+  border: 1px solid #382e30 !important;
+  background-color: white !important;
 }
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
