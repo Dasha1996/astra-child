@@ -90,6 +90,8 @@ iframe.giphy-embed {
 hr {
     background-color: $border-bottom-color;
     height: 1px;
+    border: none !important;
+    margin: 0 !important;
 }
 
 /*span highlight*/
