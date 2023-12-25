@@ -218,10 +218,11 @@ a.button:active {
   text-align: center;
   width: 70%;
 }
-.carousel-inner .carousel-indicators {
+
+.carousel-indicators {
   bottom: 0;
 }
-.carousel-inner .carousel-indicators button {
+.carousel-indicators button {
   border: 1px solid #382e30 !important;
   background-color: white !important;
 }

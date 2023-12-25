@@ -217,12 +217,13 @@ span.in-view {
         text-align: center;
         width: 70%;
     }
-    .carousel-indicators {
-        bottom: 0;
-        button {
-            border: $border-bottom !important;
-            background-color: white !important;
-        }
+}
+
+.carousel-indicators {
+    bottom: 0;
+    button {
+        border: $border-bottom !important;
+        background-color: white !important;
     }
 }
 
