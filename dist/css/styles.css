@@ -210,6 +210,22 @@ a.button:active {
   width: 25px;
 }
 
+/*----- Testimonials section -------*/
+.carousel-inner {
+  display: flex;
+}
+.carousel-inner .carousel-item {
+  text-align: center;
+  width: 70%;
+}
+.carousel-inner .carousel-indicators {
+  bottom: 0;
+}
+.carousel-inner .carousel-indicators [data-bs-target] {
+  border: 1px solid #382e30;
+  background-color: white;
+}
+
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
 /*when slide selected make the container wider
 .slide .container.content-container.position-relative {
@@ -254,12 +270,12 @@ a.button:active {
 		justify-content: center;
 }*/
 /*carousel controls*/
-.carousel-indicators {
+.carousel-rows .carousel-indicators {
   position: static !important;
   margin: 0 !important;
 }
 
-.carousel-indicators button {
+.carousel-rows .carousel-indicators button {
   height: 15px !important;
   width: 15px !important;
   border-radius: 100%;
