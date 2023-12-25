@@ -1,5 +1,4 @@
 <?php
-echo "testimonia;s";
 	/*Testimonials*/
 	$count = 0;
 		  $args = array(
