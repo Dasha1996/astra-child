@@ -214,9 +214,11 @@ div#testimonialscontrols {
     padding: 50px 0;
     .carousel-inner {
         display:flex;
+            justify-content: center;
         .carousel-item {
             text-align: center;
             width: 70%;
+            margin: auto;
         }
     }
     .carousel-indicators {
@@ -230,11 +232,6 @@ div#testimonialscontrols {
         }
     }
 }
-
-
-
-
-
 
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/

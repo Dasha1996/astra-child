@@ -216,10 +216,12 @@ div#testimonialscontrols {
 }
 div#testimonialscontrols .carousel-inner {
   display: flex;
+  justify-content: center;
 }
 div#testimonialscontrols .carousel-inner .carousel-item {
   text-align: center;
   width: 70%;
+  margin: auto;
 }
 div#testimonialscontrols .carousel-indicators {
   bottom: 0;
