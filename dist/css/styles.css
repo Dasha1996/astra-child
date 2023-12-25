@@ -211,20 +211,25 @@ a.button:active {
 }
 
 /*----- Testimonials section -------*/
-.carousel-inner {
+div#testimonialscontrols {
+  padding: 50px 0;
+}
+div#testimonialscontrols .carousel-inner {
   display: flex;
 }
-.carousel-inner .carousel-item {
+div#testimonialscontrols .carousel-inner .carousel-item {
   text-align: center;
   width: 70%;
 }
-
-.carousel-indicators {
+div#testimonialscontrols .carousel-indicators {
   bottom: 0;
 }
-.carousel-indicators button {
+div#testimonialscontrols .carousel-indicators button {
   border: 1px solid #382e30 !important;
   background-color: white !important;
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 100px;
 }
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/

@@ -210,22 +210,30 @@ span.in-view {
 
 
 /*----- Testimonials section -------*/
-
-.carousel-inner {
-    display:flex;
-    .carousel-item {
-        text-align: center;
-        width: 70%;
+div#testimonialscontrols {
+    padding: 50px 0;
+    .carousel-inner {
+        display:flex;
+        .carousel-item {
+            text-align: center;
+            width: 70%;
+        }
+    }
+    .carousel-indicators {
+        bottom: 0;
+        button {
+            border: $border-bottom !important;
+            background-color: white !important;
+            width: 28px !important;
+            height: 28px !important;
+            border-radius: 100px;
+        }
     }
 }
 
-.carousel-indicators {
-    bottom: 0;
-    button {
-        border: $border-bottom !important;
-        background-color: white !important;
-    }
-}
+
+
+
 
 
 
