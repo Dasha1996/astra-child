@@ -210,6 +210,12 @@ span.in-view {
 
 
 /*----- Testimonials section -------*/
+.testimonials-section {
+    .container-custom {
+        width: 800px;
+        max-width: 100%;
+    }
+}
 div#testimonialscontrols {
     padding: 50px 0;
     .carousel-inner {
@@ -217,8 +223,15 @@ div#testimonialscontrols {
             //justify-content: center;
         .carousel-item {
             text-align: center;
+            background-color: white;
+            border-radius: 20px;
+            border: $border-bottom;
+            padding: 20px;
             //width: 70% !important;
             //margin: auto;
+        }
+        .carousel-control-next-icon {
+            background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
         }
     }
     .carousel-indicators {
