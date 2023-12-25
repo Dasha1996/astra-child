@@ -38,7 +38,8 @@ function astra_child_custom_content() {
 		get_template_part( 'flexible_content_sections/'. get_row_layout() );
         ?><hr><?php
 	}
-	include('template_parts/testimonials.php');
+	//include('template_parts/testimonials.php');
+	get_template_part('template_parts/testimonials');
 }
 
 ?>
