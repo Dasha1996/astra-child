@@ -222,13 +222,15 @@ div#testimonialscontrols {
   padding: 50px 0;
   min-height: 450px;
 }
+div#testimonialscontrols .carousel-inner {
+  overflow: visible !important;
+}
 div#testimonialscontrols .carousel-inner .carousel-item {
   text-align: center;
   background-color: white;
   border-radius: 20px;
   border: 1px solid #382e30;
   padding: 20px;
-  overflow: visible !important;
 }
 div#testimonialscontrols .carousel-inner .carousel-control-next {
   right: -78px !important;

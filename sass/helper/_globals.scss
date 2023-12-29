@@ -222,6 +222,7 @@ div#testimonialscontrols {
     padding: 50px 0;
     min-height: 450px;
     .carousel-inner {
+        overflow: visible !important;
         //display:flex;
             //justify-content: center;
         .carousel-item {
@@ -230,7 +231,6 @@ div#testimonialscontrols {
             border-radius: 20px;
             border: $border-bottom;
             padding: 20px;
-            overflow: visible !important;
             //width: 70% !important;
             //margin: auto;
         }
