@@ -20,8 +20,8 @@
 			$blogpost->the_post();
 				?>
 			<div class="carousel-item <?php if($count == 1) { echo 'active'; } ?>" aria-label="Slide <?=$count;?> out of 3">
-				<p><?php the_content(); ?></p>
-				<h4 class="w-50 mx-auto mt-5" style="color:#67498f;"><?php the_title();  ?></h4>
+				<?php the_content(); ?>
+				<p class="testimonilas-title" ><?php the_title();  ?></p>
 			</div>
 				<?php
 				}

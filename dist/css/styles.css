@@ -228,9 +228,27 @@ div#testimonialscontrols .carousel-inner .carousel-item {
   border-radius: 20px;
   border: 1px solid #382e30;
   padding: 20px;
+  overflow: visible !important;
+}
+div#testimonialscontrols .carousel-inner .carousel-control-next-icon, div#testimonialscontrols .carousel-inner .carousel-control-prev-icon {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #d3ccff;
+  border: 1px solid #382e30;
+  border-radius: 100%;
+  /* padding: 20px !important; */
+  box-sizing: content-box;
+  background-size: 60% !important;
 }
 div#testimonialscontrols .carousel-inner .carousel-control-next-icon {
   background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
+  right: -78px;
+  opacity: 1;
+}
+div#testimonialscontrols .carousel-inner .carousel-control-prev-icon {
+  background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
+  left: -78px;
+  opacity: 1;
 }
 div#testimonialscontrols .carousel-indicators {
   bottom: 0;

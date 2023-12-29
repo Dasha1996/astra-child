@@ -230,11 +230,29 @@ div#testimonialscontrols {
             border-radius: 20px;
             border: $border-bottom;
             padding: 20px;
+            overflow: visible !important;
             //width: 70% !important;
             //margin: auto;
         }
+        .carousel-control-next-icon, .carousel-control-prev-icon {
+            width: 40px !important;
+            height: 40px !important;
+            background-color: #d3ccff;
+            border: $border-bottom;
+            border-radius: 100%;
+            /* padding: 20px !important; */
+            box-sizing: content-box;
+            background-size: 60% !important;
+        }
         .carousel-control-next-icon {
             background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
+            right: -78px;
+            opacity: 1;
+        }
+        .carousel-control-prev-icon {
+            background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
+            left: -78px;
+            opacity: 1;
         }
     }
     .carousel-indicators {
