@@ -225,6 +225,12 @@ div#testimonialscontrols {
 div#testimonialscontrols .carousel-inner {
   overflow: visible !important;
 }
+div#testimonialscontrols .carousel-inner .carousel-container-text {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 div#testimonialscontrols .carousel-inner .carousel-item {
   text-align: center;
   background-color: white;

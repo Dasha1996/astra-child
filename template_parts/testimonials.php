@@ -20,7 +20,7 @@
 			$blogpost->the_post();
 				?>
 			<div class="carousel-item <?php if($count == 1) { echo 'active'; } ?>" aria-label="Slide <?=$count;?> out of 3">
-				<div class="carousel-container">
+				<div class="carousel-container-text">
 					<?php the_content(); ?>
 					<p class="testimonilas-title" ><?php the_title();  ?></p>
 				</div>
