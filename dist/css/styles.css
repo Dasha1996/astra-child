@@ -221,7 +221,7 @@ a.button:active {
   max-width: 100%;
 }
 
-div#testimonialscontrols {
+div#testimonialscontrols .container-custom {
   padding-bottom: 50px 0 90px;
 }
 div#testimonialscontrols .carousel-inner {

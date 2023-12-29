@@ -220,7 +220,10 @@ span.in-view {
     }
 }
 div#testimonialscontrols {
-    padding-bottom: 50px 0 90px;
+    .container-custom {
+        padding-bottom: 50px 0 90px;
+
+    }
     .carousel-inner {
         overflow: visible !important;
         //display:flex;
