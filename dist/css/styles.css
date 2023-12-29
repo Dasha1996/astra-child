@@ -236,9 +236,6 @@ div#testimonialscontrols .carousel-inner .carousel-container-text {
 }
 div#testimonialscontrols .carousel-inner .carousel-item {
   text-align: center;
-  background-color: white;
-  border-radius: 20px;
-  border: 1px solid #382e30;
   padding: 20px;
 }
 div#testimonialscontrols .carousel-inner button:hover, div#testimonialscontrols .carousel-inner button:focus {
