@@ -234,6 +234,9 @@ div#testimonialscontrols {
             //width: 70% !important;
             //margin: auto;
         }
+        button:hover, button:focus {
+            background-color: transparent !important;
+        }
         .carousel-control-next {
             right: -78px !important;
             opacity: 1 !important;
