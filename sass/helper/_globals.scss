@@ -240,6 +240,9 @@ div#testimonialscontrols {
             padding: 20px;
             //width: 70% !important;
             //margin: auto;
+            p.testimonilas-title {
+                font-family: $fontTitle;
+            }
         }
         button:hover, button:focus {
             background-color: transparent !important;
