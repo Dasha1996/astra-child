@@ -239,7 +239,6 @@ div#testimonialscontrols .carousel-inner .carousel-item {
   border-radius: 20px;
   border: 1px solid #382e30;
   padding: 20px;
-  min-height: 276px;
 }
 div#testimonialscontrols .carousel-inner button:hover, div#testimonialscontrols .carousel-inner button:focus {
   background-color: transparent !important;
