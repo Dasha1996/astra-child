@@ -264,6 +264,12 @@ img.pink-rotate {
     .container-custom {
         position: relative;
         z-index: 99;
+        background-color: white;
+        border: $border-bottom;
+        width: fit-content;
+        box-sizing: content-box;
+        padding: 50px 50px;
+        border-radius: 20px;
     }
     p {
         text-align: center;

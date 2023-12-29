@@ -693,6 +693,12 @@ img.pink-rotate {
 .get-in-touch.section .container-custom {
   position: relative;
   z-index: 99;
+  background-color: white;
+  border: 1px solid #382e30;
+  width: fit-content;
+  box-sizing: content-box;
+  padding: 50px 50px;
+  border-radius: 20px;
 }
 .get-in-touch.section p {
   text-align: center;
