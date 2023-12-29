@@ -246,13 +246,13 @@ div#testimonialscontrols {
         }
         .carousel-control-next-icon {
             background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
-            right: -78px;
-            opacity: 1;
+            right: -78px !important;
+            opacity: 1 !important;
         }
         .carousel-control-prev-icon {
             background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
-            left: -78px;
-            opacity: 1;
+            left: 78px !important;
+            opacity: 1 !important;
         }
     }
     .carousel-indicators {
