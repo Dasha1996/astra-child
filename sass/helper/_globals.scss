@@ -213,17 +213,15 @@ span.in-view {
 
 /*----- Testimonials section -------*/
 .testimonials-section {
-    padding: 50px 0;
+    padding-top: 80px;
     .container-custom {
         width: 800px;
         max-width: 100%;
     }
 }
 div#testimonialscontrols {
-    .container-custom {
-        padding-bottom: 50px 0 90px;
-
-    }
+    padding-bottom: 80px;
+    margin-bottom: 50px !important;
     .carousel-inner {
         overflow: visible !important;
         //display:flex;

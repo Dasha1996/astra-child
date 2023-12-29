@@ -214,15 +214,16 @@ a.button:active {
 
 /*----- Testimonials section -------*/
 .testimonials-section {
-  padding: 50px 0;
+  padding-top: 80px;
 }
 .testimonials-section .container-custom {
   width: 800px;
   max-width: 100%;
 }
 
-div#testimonialscontrols .container-custom {
-  padding-bottom: 50px 0 90px;
+div#testimonialscontrols {
+  padding-bottom: 80px;
+  margin-bottom: 50px !important;
 }
 div#testimonialscontrols .carousel-inner {
   overflow: visible !important;
