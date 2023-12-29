@@ -693,7 +693,7 @@ img.pink-rotate {
 .get-in-touch.section .container-custom {
   position: relative;
   z-index: 99;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6588235294);
   border: 1px solid #382e30;
   width: fit-content;
   box-sizing: content-box;
