@@ -230,6 +230,14 @@ div#testimonialscontrols .carousel-inner .carousel-item {
   padding: 20px;
   overflow: visible !important;
 }
+div#testimonialscontrols .carousel-inner .carousel-control-next {
+  right: -78px !important;
+  opacity: 1 !important;
+}
+div#testimonialscontrols .carousel-inner .carousel-control-prev {
+  left: -78px !important;
+  opacity: 1 !important;
+}
 div#testimonialscontrols .carousel-inner .carousel-control-next-icon, div#testimonialscontrols .carousel-inner .carousel-control-prev-icon {
   width: 40px !important;
   height: 40px !important;
@@ -242,13 +250,9 @@ div#testimonialscontrols .carousel-inner .carousel-control-next-icon, div#testim
 }
 div#testimonialscontrols .carousel-inner .carousel-control-next-icon {
   background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
-  right: -78px !important;
-  opacity: 1 !important;
 }
 div#testimonialscontrols .carousel-inner .carousel-control-prev-icon {
   background-image: url("/wp-content/uploads/2023/12/arrow-right.svg");
-  left: 78px !important;
-  opacity: 1 !important;
 }
 div#testimonialscontrols .carousel-indicators {
   bottom: 0;
