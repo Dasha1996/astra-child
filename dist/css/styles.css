@@ -171,11 +171,12 @@ a.button:active {
 /*Text with full width image*/
 .text-container-padding {
   /*width:450px;*/
-  padding: 40px 150px 40px 150px;
+  padding: 40px 90px 40px 150px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
 }
 
 .flex {
@@ -183,9 +184,10 @@ a.button:active {
   align-items: center;
 }
 .flex img.full {
-  height: 103%;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
-  object-position: 0 2px;
+  object-position: center;
 }
 .flex .col {
   width: 50%;
@@ -693,6 +695,7 @@ img.pink-rotate {
   position: relative;
   padding: 100px 0;
   overflow: hidden;
+  background-color: #E7D6FF;
   /* background-color: #E7D6FF; */
   background-image: url(/wp-content/uploads/2023/12/grain_plain.png);
 }
