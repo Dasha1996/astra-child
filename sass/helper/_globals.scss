@@ -278,10 +278,12 @@ div#testimonialscontrols {
         bottom: 0;
         button {
             border: $border-bottom !important;
-            background-color: white !important;
-            width: 28px !important;
-            height: 28px !important;
-            border-radius: 100px;
+            width: 25px !important;
+            height: 25px !important;
+            border-radius: 100%;
+        }
+        button.active {
+            background-color: #d3ccff;
         }
     }
 }
