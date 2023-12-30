@@ -217,9 +217,18 @@ span.in-view {
 /*----- Testimonials section -------*/
 .testimonials-section {
     padding-top: 80px;
+    position: relative;
     .container-custom {
         width: 800px;
         max-width: 100%;
+    }
+    img.absolute-blurb {
+        position: absolute;
+        right: -77px;
+        bottom: -120px;
+        width: 389px;
+        object-fit: contain;
+        filter: blur(60px);
     }
 }
 div#testimonialscontrols {

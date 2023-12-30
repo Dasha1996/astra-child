@@ -6,7 +6,7 @@
 		'posts_per_page' => 3,
 	); ?>
 	<div class="testimonials-section">
-		<img src="/wp-content/uploads/2023/12/Asset-6.webp" class="absolute-blurb">
+		<img src="/wp-content/uploads/2023/12/Asset-6-e1703964313804.webp" class="absolute-blurb">
 		<h2>Testimonials</h2>
 		<div class="container-custom">
 		<div id="testimonialscontrols" class="carousel slide" data-ride="carousel" data-interval="8000" >
