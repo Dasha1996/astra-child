@@ -93,6 +93,7 @@ hr {
   height: 1px;
   border: none !important;
   margin: 0 !important;
+  opacity: 1 !important;
 }
 
 /*span highlight*/
