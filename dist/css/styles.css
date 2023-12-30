@@ -276,6 +276,7 @@ div#testimonialscontrols .carousel-indicators button {
   width: 25px !important;
   height: 25px !important;
   border-radius: 100%;
+  opacity: 1 !important;
 }
 div#testimonialscontrols .carousel-indicators button.active {
   background-color: #d3ccff;
