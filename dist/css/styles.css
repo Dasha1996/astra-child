@@ -273,10 +273,12 @@ div#testimonialscontrols .carousel-indicators {
 }
 div#testimonialscontrols .carousel-indicators button {
   border: 1px solid #382e30 !important;
-  background-color: white !important;
-  width: 28px !important;
-  height: 28px !important;
-  border-radius: 100px;
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 100%;
+}
+div#testimonialscontrols .carousel-indicators button.active {
+  background-color: #d3ccff;
 }
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
