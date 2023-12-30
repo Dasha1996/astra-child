@@ -188,7 +188,7 @@ a.button:active {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: 0 2px;
 }
 .flex .col {
   width: 50%;
@@ -556,7 +556,7 @@ div#testimonialscontrols .carousel-indicators button.active {
 }
 .services-section img.cells {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   width: 300px;
   z-index: 1;
 }
