@@ -218,6 +218,15 @@ a.button:active {
 /*----- Testimonials section -------*/
 .testimonials-section {
   padding-top: 80px;
+  position: relative;
+}
+.testimonials-section .absolute-blurb {
+  position: absolute;
+  right: -77px;
+  bottom: -120px;
+  width: 389px;
+  object-fit: contain;
+  filter: blur(60px);
 }
 .testimonials-section .container-custom {
   width: 800px;
