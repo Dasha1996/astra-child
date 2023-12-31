@@ -224,9 +224,9 @@ a.button:active {
   position: absolute;
   right: -77px;
   bottom: -120px;
-  width: 389px;
+  width: 477px;
   object-fit: contain;
-  filter: blur(60px);
+  filter: blur(88px);
 }
 .testimonials-section .container-custom {
   width: 800px;
