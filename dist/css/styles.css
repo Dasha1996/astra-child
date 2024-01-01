@@ -177,6 +177,7 @@ a.button:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 10px;
   height: 100%;
 }
 
@@ -486,9 +487,6 @@ div#testimonialscontrols .carousel-indicators button.active {
   height: 103%;
   object-fit: cover;
   object-position: 0 2px;
-}
-.banner .button-container {
-  margin-top: 20px;
 }
 
 /*------ SERVICES SECTION -------*/

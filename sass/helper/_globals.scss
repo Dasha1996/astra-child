@@ -149,6 +149,7 @@ span.in-view {
         transition: all ease-in 0.2s !important;
         width: fit-content;
     }
+
     a.button:hover,
     a.button:focus,
     a.button:active {
@@ -176,6 +177,7 @@ span.in-view {
     display: flex;
         flex-direction: column;
         justify-content: center;
+        gap:10px;
     height: 100%;
 }
 .flex  {
