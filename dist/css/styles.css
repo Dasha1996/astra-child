@@ -91,7 +91,7 @@ iframe.giphy-embed {
 
 /*black line under each container*/
 hr {
-  background-color: 1px solid rgb(37, 36, 43);
+  background-color: rgb(37, 36, 43);
   height: 1px;
   border: none !important;
   margin: 0 !important;
