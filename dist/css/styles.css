@@ -640,6 +640,7 @@ img.pink-rotate {
 .portfolio-section {
   background-color: hsla(268.42, 100%, 92.55%, 0.55);
   background-image: url(/wp-content/uploads/2023/12/Asset-11_dited-e1703524539422.jpeg);
+  background-blend-mode: overlay;
   padding: 60px 0;
   position: relative;
   /*& > img {
