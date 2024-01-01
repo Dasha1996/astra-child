@@ -507,7 +507,7 @@ div#testimonialscontrols .carousel-indicators button.active {
   background-attachment: fixed;
 }
 .services-section .container-custom {
-  width: 100%;
+  width: 1200px;
 }
 .services-section .heading-arrow {
   position: relative;
@@ -547,8 +547,7 @@ div#testimonialscontrols .carousel-indicators button.active {
   padding: 25px 0;
   position: relative;
   z-index: 9;
-  width: 90%;
-  max-width: 1480px;
+  width: 1200px;
   margin: auto;
   /*services cards*/
 }
