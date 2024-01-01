@@ -84,7 +84,6 @@
         display: flex;
             justify-content: center;
             gap: 20px;
-        @include inner-container;
         position: relative;
         z-index: 9;
         margin: auto;
