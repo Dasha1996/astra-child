@@ -147,6 +147,7 @@ a.button {
   box-shadow: 5px 5px #000;
   border: 2px solid #000 !important;
   transition: all ease-in 0.2s !important;
+  width: fit-content;
 }
 
 a.button:hover,
