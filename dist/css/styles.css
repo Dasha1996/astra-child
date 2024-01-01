@@ -1,5 +1,4 @@
 /*variables*/
-/*Media Queries*/
 /*------------ GLOBAL STYLES --------*/
 *,
 *:before,
@@ -78,6 +77,11 @@ span.center {
   margin: auto;
 }
 
+@media only screen and (min-width: 1600px) {
+  .container-custom {
+    width: 1340px;
+  }
+}
 .flex {
   display: flex;
 }
@@ -506,9 +510,6 @@ div#testimonialscontrols .carousel-indicators button.active {
   background-image: url(/wp-content/uploads/2023/11/grain_gradient.png);
   background-size: cover;
   background-attachment: fixed;
-}
-.services-section .container-custom {
-  width: 1200px;
 }
 .services-section .heading-arrow {
   position: relative;
