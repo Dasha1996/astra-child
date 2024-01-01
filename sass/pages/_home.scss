@@ -43,6 +43,7 @@
     width: 100%;
     position: relative;
     background-image: url(/wp-content/uploads/2023/11/grain_gradient-min.webp);
+    background-image: linear-gradient(90deg, hsl(302.14deg 100% 97.42% / 95%) 0%, 20%, hsl(267.27deg 59.89% 95.1%));
     background-size: cover;
     background-attachment: fixed;
     .container-custom {
