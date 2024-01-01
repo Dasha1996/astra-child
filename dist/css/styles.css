@@ -197,6 +197,9 @@ a.button:active {
 .flex .col {
   width: 50%;
 }
+.flex .image-container {
+  align-self: stretch;
+}
 .flex h1, .flex h2 {
   text-align: left;
 }

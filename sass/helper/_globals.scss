@@ -195,6 +195,9 @@ span.in-view {
     .col {
         width: 50%;
     }
+    .image-container {
+        align-self: stretch;
+    }
 
     h1, h2 {
         text-align: left;
