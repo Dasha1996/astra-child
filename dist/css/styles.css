@@ -547,7 +547,6 @@ div#testimonialscontrols .carousel-indicators button.active {
   padding: 25px 0;
   position: relative;
   z-index: 9;
-  width: 1200px;
   margin: auto;
   /*services cards*/
 }
