@@ -172,7 +172,7 @@ a.button:active {
 /*Text with full width image*/
 .text-container-padding {
   /*width:450px;*/
-  padding: 40px 70px 40px 100px;
+  padding: 40px 110px;
   margin: auto;
   display: flex;
   flex-direction: column;
