@@ -2,7 +2,7 @@
     console.log("loaded");
     $(document).ready(function() {
         $(window).on('scroll resize', function() {
-            $('.banner p span').each(function() {
+            $('p span').each(function() {
                 if (isElementInViewport(this)) {
                     $(this).addClass('in-view');
                 } else {
