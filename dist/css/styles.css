@@ -225,9 +225,9 @@ a.button:active {
 }
 .testimonials-section .absolute-blurb {
   position: absolute;
-  right: -77px;
-  bottom: -120px;
-  width: 477px;
+  right: -6px;
+  bottom: -67px;
+  width: 331px;
   object-fit: contain;
   filter: blur(88px);
 }
