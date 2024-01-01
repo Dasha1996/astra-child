@@ -40,8 +40,9 @@ if(have_rows('services_cards')) {
     ?></div><?php
 }
 ?>
+</div>
 <img class="cells" src="/wp-content/uploads/2023/11/cells.png" alt=""/>
-</div></div><?
+</div><?
 //if have rows
 //while have ros
 //the row
