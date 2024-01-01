@@ -174,7 +174,7 @@ a.button:active {
 /*Text with full width image*/
 .text-container-padding {
   /*width:450px;*/
-  padding: 40px 110px;
+  padding: 100px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -191,7 +191,7 @@ a.button:active {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: 0 2px;
+  object-position: center 2px;
 }
 .flex .col {
   width: 50%;
