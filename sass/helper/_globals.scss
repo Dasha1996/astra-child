@@ -90,11 +90,12 @@ iframe.giphy-embed {
 
 /*black line under each container*/
 hr {
-    background-color: $border-bottom-color;
+    background-color: $border-bottom;
     height: 1px;
     border: none !important;
     margin: 0 !important;
     opacity: 1 !important;
+    position: relative;
 }
 
 /*span highlight*/
