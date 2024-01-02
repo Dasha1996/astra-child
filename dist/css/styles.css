@@ -605,7 +605,7 @@ div#testimonialscontrols .carousel-indicators button.active {
   opacity: 0;
 }
 .why-section .list-item.in-view {
-  animation: fadeIn 0.4s ease-in-out forwards;
+  animation: fadeIn 0.4s ease-in forwards;
 }
 .why-section .list-item.in-view:nth-child(1) {
   animation-delay: 0.3s;
