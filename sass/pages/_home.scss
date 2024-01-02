@@ -136,9 +136,14 @@
         border: 1px solid black;
         margin-bottom: 10px;
         border-radius: 10px;
+        opacity: 0;
 
         p {
             margin-bottom: 0 !important;
+        }
+
+        .list-item.in-view {
+            animation-delay:#{$index -1}s;
         }
     }
 }

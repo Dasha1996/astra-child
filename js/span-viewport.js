@@ -24,6 +24,14 @@
                     $(this).removeClass('in-view');
                 }
             })
+            $('.list-item').each(function() {
+                if (isElementInViewport(this)) {
+                    $(this).addClass('in-view');
+                } else {
+                    $(this).removeClass('in-view');
+                }
+            })
+           
 
         });
     

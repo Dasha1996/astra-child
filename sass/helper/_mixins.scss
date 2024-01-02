@@ -20,3 +20,9 @@
 @mixin inner-container {
     padding: 25px 0;
 }
+
+@mixin fadeInItem($index) {
+    &:nth-child(#{$index}) {
+      animation-delay: #{$index - 1}s;
+    }
+  }
