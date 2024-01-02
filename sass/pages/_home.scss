@@ -138,7 +138,7 @@
         border-radius: 10px;
         opacity: 0;
         &.in-view {
-            animation: fadeIn 0.3s ease-in-out forwards;
+            animation: fadeIn 0.4s ease-in-out forwards;
             @for $i from 1 through 4 {
               @include fadeInItem($i);
             }

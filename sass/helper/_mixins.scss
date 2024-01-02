@@ -23,6 +23,6 @@
 
 @mixin fadeInItem($index) {
     &:nth-child(#{$index}) {
-      animation-delay: #{$index - 1}s;
+      animation-delay: #{$index * 0.2}s;
     }
   }
