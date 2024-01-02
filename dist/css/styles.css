@@ -602,9 +602,10 @@ div#testimonialscontrols .carousel-indicators button.active {
   border: 1px solid black;
   margin-bottom: 10px;
   border-radius: 10px;
+  opacity: 0;
 }
 .why-section .list-item.in-view {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 .why-section .list-item.in-view:nth-child(1) {
   animation-delay: 0s;
