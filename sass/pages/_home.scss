@@ -137,13 +137,14 @@
         margin-bottom: 10px;
         border-radius: 10px;
         opacity: 0;
-
+        .list-item.in-view {
+            animation: fadeIn 1s ease-in-out;
+            @for $i from 1 through 4 {
+              @include fadeInItem($i);
+            }
+        }
         p {
             margin-bottom: 0 !important;
-        }
-
-        .list-item.in-view {
-            animation-delay:#{$index -1}s;
         }
     }
 }
