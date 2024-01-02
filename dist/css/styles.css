@@ -200,10 +200,12 @@ a.button:active {
   object-position: center 2px;
 }
 .flex .col {
-  width: 50%;
+  width: 53%;
+  flex: unset;
 }
 .flex .image-container {
   align-self: stretch;
+  width: 47%;
 }
 .flex h1, .flex h2 {
   text-align: left;

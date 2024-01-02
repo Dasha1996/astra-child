@@ -199,10 +199,12 @@ span.in-view {
         object-position: center 2px;
     }
     .col {
-        width: 50%;
+        width: 53%;
+        flex: unset;
     }
     .image-container {
         align-self: stretch;
+        width: 47%;
     }
 
     h1, h2 {
