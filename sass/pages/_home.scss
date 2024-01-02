@@ -311,4 +311,16 @@ img.pink-rotate {
     }
 }
 
+/*----- Media Queries ------*/
+
+@media only screen and (max-width: 1440px) {
+    .services-section {
+        img.cube {
+            width: 72px;
+            top: 25px;
+            left: 417px;
+        }
+    }
+}
+
 
