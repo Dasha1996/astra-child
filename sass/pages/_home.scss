@@ -306,49 +306,4 @@ img.pink-rotate {
     }
 }
 
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
-}
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
-}
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
-}
-
-@keyframes bounceRight { 
-    0% { 
-        transform: rotate(45deg);
-    } 
-    30%{
-        transform: rotate(55deg);
-    }
-    100% {
-        transform: rotate(45deg);
-    }
-}
-
-@keyframes floatCloudRight {
-    0% {
-        right: -1000px;
-    }
-    100% {
-        right: 100%;
-    }
-
-}
-
-
-@keyframes floatCloudLeft {
-    0% {
-        left: 1000px;
-    }
-    100% {
-        left: -100%;
-    }
-
-}
 
