@@ -28,9 +28,6 @@
                 if (isElementInViewport(this)) {
                     $(this).addClass('in-view');
                 } 
-                else {
-                    $(this).removeClass('in-view');
-                }
             })
            
 
