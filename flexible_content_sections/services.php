@@ -3,7 +3,9 @@
 $subtitle = get_sub_field('subtitle');
 $section_heading_intro = get_sub_field('section_heading_and_text');
 ?><div class="heading-arrow">  
-    <?php echo '<span class="center">' . $subtitle . '</span>';
+    <?php if(!empty($subtitle)) {
+        echo '<span class="center">' . $subtitle . '</span>';
+    }
     echo $section_heading_intro;?>
     <img src="/wp-content/uploads/2023/11/arrow.png" class="arrow" alt="black dotted arrow pointing towards services"/> 
 </div>
