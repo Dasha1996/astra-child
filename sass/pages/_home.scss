@@ -136,7 +136,6 @@
         border: 1px solid black;
         margin-bottom: 10px;
         border-radius: 10px;
-        opacity: 0;
         &.in-view {
             animation: fadeIn 1s ease-in-out;
             @for $i from 1 through 4 {
