@@ -470,7 +470,6 @@ div#testimonialscontrols .carousel-indicators button.active {
   align-items: center;
 }
 .banner .col {
-  width: 50%;
   display: flex;
   align-items: center;
   flex-direction: column;

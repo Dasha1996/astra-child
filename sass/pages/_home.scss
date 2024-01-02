@@ -3,7 +3,6 @@
 .banner {
     @include flexbox;
     .col {
-        @include col;
         @include flexbox;
         flex-direction: column;
         align-self:stretch;     
