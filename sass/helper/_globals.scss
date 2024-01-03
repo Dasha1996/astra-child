@@ -317,9 +317,11 @@ div#testimonialscontrols {
             height: 25px !important;
             border-radius: 100%;
             opacity: 1 !important;
+            background-color: $accent;
         }
         button.active {
-            background-color: #d3ccff;
+            //background-color: #d3ccff;
+            background-color: $accent;
         }
     }
 }

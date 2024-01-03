@@ -107,8 +107,8 @@ hr {
 /*span highlight*/
 span {
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d3ccff), to(#d3ccff));
-  background-image: linear-gradient(180deg, #d3ccff 0%, #d3ccff 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E6D4FF), to(#E6D4FF));
+  background-image: linear-gradient(180deg, #E6D4FF 0%, #E6D4FF 100%);
   background-size: 0% 23%;
   background-position: 0 89%;
   -webkit-transition: background-size 0.8s ease-in-out;
@@ -310,9 +310,10 @@ div#testimonialscontrols .carousel-indicators button {
   height: 25px !important;
   border-radius: 100%;
   opacity: 1 !important;
+  background-color: #D8D4FF;
 }
 div#testimonialscontrols .carousel-indicators button.active {
-  background-color: #d3ccff;
+  background-color: #D8D4FF;
 }
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
@@ -844,5 +845,5 @@ img.pink-rotate {
   }
 }
 h1 {
-  color: #d3ccff;
+  color: #E6D4FF;
 }/*# sourceMappingURL=styles.css.map */
