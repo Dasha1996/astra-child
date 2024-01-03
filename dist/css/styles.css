@@ -220,7 +220,7 @@ a.button:active {
   background: linear-gradient(90deg, hsl(302.14, 100%, 94.51%) 0%, 20%, hsl(267.27, 95.65%, 90.98%));
   padding: 7px 20px;
   border-bottom: 1px solid rgb(37, 36, 43);
-  gap: 10px;
+  gap: 6px;
 }
 .tab img {
   width: 30px;
