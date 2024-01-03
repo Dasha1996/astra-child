@@ -296,7 +296,7 @@ div#testimonialscontrols {
         .carousel-control-next-icon, .carousel-control-prev-icon {
             width: 40px !important;
             height: 40px !important;
-            background-color: #d3ccff;
+            background-color: $primaryColor;
             border: $border-bottom;
             border-radius: 100%;
             /* padding: 20px !important; */
@@ -321,7 +321,7 @@ div#testimonialscontrols {
         }
         button.active {
             //background-color: #d3ccff;
-            background-color: $accent;
+            background-color: $primaryColor;
         }
     }
 }

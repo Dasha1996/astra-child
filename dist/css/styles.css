@@ -289,7 +289,7 @@ div#testimonialscontrols .carousel-inner .carousel-control-prev {
 div#testimonialscontrols .carousel-inner .carousel-control-next-icon, div#testimonialscontrols .carousel-inner .carousel-control-prev-icon {
   width: 40px !important;
   height: 40px !important;
-  background-color: #d3ccff;
+  background-color: #E6D4FF;
   border: 1px solid rgb(37, 36, 43);
   border-radius: 100%;
   /* padding: 20px !important; */
@@ -313,7 +313,7 @@ div#testimonialscontrols .carousel-indicators button {
   opacity: 1 !important;
 }
 div#testimonialscontrols .carousel-indicators button.active {
-  background-color: #D8D4FF;
+  background-color: #E6D4FF;
 }
 
 /*---------- CARDS SECTION WHEN SLIDER IS SELECTED --------*/
