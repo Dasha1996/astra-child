@@ -538,9 +538,9 @@ div#testimonialscontrols .carousel-indicators button.active {
 }
 .services-section img.cube {
   position: absolute;
-  width: 83px;
-  top: 40px;
-  right: 375px;
+  width: 57px;
+  top: 30px;
+  right: 507px;
   animation: spin 25s linear infinite;
 }
 .services-section .services-container {
